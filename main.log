@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  16 JUL 2025 23:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  18 AUG 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2/main.tex"
-(c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2/main.tex
+**"c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-1/main.tex"
+(c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-1/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
 (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -433,12 +433,12 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  4732 strings out of 469923
- 82796 string characters out of 5462358
+ 82810 string characters out of 5462358
  473081 words of memory out of 5000000
  31531 multiletter control sequences out of 15000+600000
  633802 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1213b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,1215b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on main.pdf (17 pages, 2348107 bytes).
 PDF statistics:
