@@ -114,10 +114,10 @@ class MeshStressProcessor:
             plt.plot(data["path_length"], data["stress"], label=data["label"],
                     linewidth=line_width, linestyle=style)
 
-        plt.xlabel("Path length (mm)", fontsize=14)
-        plt.ylabel("S$_{22}$ Nominal Stress (MPa)", fontsize=14)
-        plt.title("Combined Stress Distribution", fontsize=16)
-        plt.legend(prop={"family": font_name, "size": 14})
+        plt.xlabel("Path length (mm)", fontsize=18)
+        plt.ylabel(r"Stress Concentration Factor $K_t = \sigma_{max} / \sigma_{nom}$", fontsize=18)
+        plt.title("Combined Stress Distribution", fontsize=24)
+        plt.legend(prop={"family": font_name, "size": 16})
         plt.grid(True, linestyle="--", alpha=0.6)
         plt.tight_layout()
 
@@ -164,9 +164,9 @@ class MeshStressProcessor:
         plt.rcParams["font.family"] = font_name
         plt.plot(mesh_elements, first_values, marker="o", linestyle="-", linewidth=2)
 
-        plt.xlabel("Number of Elements", fontsize=14)
-        plt.ylabel(f"First Stress Value / {divisor}", fontsize=14)
-        plt.title("Normalized First Stress Value vs Mesh Density", fontsize=16)
+        plt.xlabel("Number of Mesh Elements", fontsize=14)
+        plt.ylabel(r"$K_t$", fontsize=14)
+        plt.title("Stress Concentration Value vs Mesh Density", fontsize=16)
         plt.grid(True, linestyle="--", alpha=0.6)
         plt.tight_layout()
 

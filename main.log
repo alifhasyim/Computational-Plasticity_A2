@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  18 AUG 2025 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  28 AUG 2025 21:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-1/main.tex"
-(c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-1/main.tex
+**"c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-3/main.tex"
+(c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-3/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
 (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -204,10 +204,7 @@ File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count307
 ) (main.aux
 
-LaTeX Warning: Label `fig:ComparisonDirectCalculated' multiply defined.
-
-
-LaTeX Warning: Label `tab:pointA-results' multiply defined.
+LaTeX Warning: Label `fig:CombinedStressDistribution' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -287,141 +284,138 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/TaskQ1.png, id=1, 362.5545pt x 320.1561pt>
-File: images/TaskQ1.png Graphic file (type png)
-<use images/TaskQ1.png>
-Package pdftex.def Info: images/TaskQ1.png  used on input line 60.
-(pdftex.def)             Requested size: 234.8775pt x 207.41017pt.
 
 
 [1
 
 {C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<images/TaskQ2.png, id=14, 377.0085pt x 320.6379pt>
-File: images/TaskQ2.png Graphic file (type png)
-<use images/TaskQ2.png>
-Package pdftex.def Info: images/TaskQ2.png  used on input line 70.
-(pdftex.def)             Requested size: 234.8775pt x 199.76215pt.
+<images/GEO_Base.png, id=13, 377.7312pt x 320.6379pt>
+File: images/GEO_Base.png Graphic file (type png)
+<use images/GEO_Base.png>
+Package pdftex.def Info: images/GEO_Base.png  used on input line 82.
+(pdftex.def)             Requested size: 281.85587pt x 239.25958pt.
 
 
-[2 <./images/TaskQ1.png> <./images/TaskQ2.png>]
-Overfull \hbox (9.73279pt too wide) in paragraph at lines 105--113
- [][] 
- []
-
-<images/MeshQ1.png, id=20, 843.15pt x 467.94826pt>
-File: images/MeshQ1.png Graphic file (type png)
-<use images/MeshQ1.png>
-Package pdftex.def Info: images/MeshQ1.png  used on input line 148.
-(pdftex.def)             Requested size: 469.75502pt x 260.71399pt.
+[2 <./images/GEO_Base.png>]
+<images/MESH_Base.png, id=19, 471.2004pt x 360.8682pt>
+File: images/MESH_Base.png Graphic file (type png)
+<use images/MESH_Base.png>
+Package pdftex.def Info: images/MESH_Base.png  used on input line 155.
+(pdftex.def)             Requested size: 422.77664pt x 323.78722pt.
 
 
 [3]
-<images/MeshQ2.1.png, id=25, 841.34325pt x 464.937pt>
-File: images/MeshQ2.1.png Graphic file (type png)
-<use images/MeshQ2.1.png>
-Package pdftex.def Info: images/MeshQ2.1.png  used on input line 160.
-(pdftex.def)             Requested size: 225.4804pt x 124.5982pt.
-<images/MeshQ2.2.png, id=26, 841.34325pt x 465.53925pt>
-File: images/MeshQ2.2.png Graphic file (type png)
-<use images/MeshQ2.2.png>
-Package pdftex.def Info: images/MeshQ2.2.png  used on input line 167.
-(pdftex.def)             Requested size: 225.4804pt x 124.7596pt.
+<images/Mesh1.png, id=23, 1205.50375pt x 852.18375pt>
+File: images/Mesh1.png Graphic file (type png)
+<use images/Mesh1.png>
+Package pdftex.def Info: images/Mesh1.png  used on input line 190.
+(pdftex.def)             Requested size: 112.74377pt x 79.69698pt.
+<images/Mesh2.png, id=24, 1205.50375pt x 852.18375pt>
+File: images/Mesh2.png Graphic file (type png)
+<use images/Mesh2.png>
+Package pdftex.def Info: images/Mesh2.png  used on input line 195.
+(pdftex.def)             Requested size: 112.74377pt x 79.69698pt.
+<images/Mesh3.png, id=25, 1205.50375pt x 852.18375pt>
+File: images/Mesh3.png Graphic file (type png)
+<use images/Mesh3.png>
+Package pdftex.def Info: images/Mesh3.png  used on input line 200.
+(pdftex.def)             Requested size: 112.74377pt x 79.69698pt.
+<images/Mesh4.png, id=26, 1205.50375pt x 852.18375pt>
+File: images/Mesh4.png Graphic file (type png)
+<use images/Mesh4.png>
+Package pdftex.def Info: images/Mesh4.png  used on input line 205.
+(pdftex.def)             Requested size: 112.74377pt x 79.69698pt.
 
 
-[4 <./images/MeshQ1.png> <./images/MeshQ2.1.png> <./images/MeshQ2.2.png>]
-<visualize_tensileGraph/res/comparison_direct_calculated.png, id=33, 867.24pt x 578.16pt>
-File: visualize_tensileGraph/res/comparison_direct_calculated.png Graphic file (type png)
-<use visualize_tensileGraph/res/comparison_direct_calculated.png>
-Package pdftex.def Info: visualize_tensileGraph/res/comparison_direct_calculated.png  used on input line 186.
-(pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
+[4 <./images/MESH_Base.png>]
+<images/Mesh5.png, id=31, 1205.50375pt x 852.18375pt>
+File: images/Mesh5.png Graphic file (type png)
+<use images/Mesh5.png>
+Package pdftex.def Info: images/Mesh5.png  used on input line 214.
+(pdftex.def)             Requested size: 112.74377pt x 79.69698pt.
+<images/Mesh6.png, id=32, 1205.50375pt x 852.18375pt>
+File: images/Mesh6.png Graphic file (type png)
+<use images/Mesh6.png>
+Package pdftex.def Info: images/Mesh6.png  used on input line 219.
+(pdftex.def)             Requested size: 112.74377pt x 79.69698pt.
+<images/Mesh7.png, id=33, 1205.50375pt x 852.18375pt>
+File: images/Mesh7.png Graphic file (type png)
+<use images/Mesh7.png>
+Package pdftex.def Info: images/Mesh7.png  used on input line 224.
+(pdftex.def)             Requested size: 112.74377pt x 79.69698pt.
+<images/Mesh8.png, id=34, 1205.50375pt x 852.18375pt>
+File: images/Mesh8.png Graphic file (type png)
+<use images/Mesh8.png>
+Package pdftex.def Info: images/Mesh8.png  used on input line 229.
+(pdftex.def)             Requested size: 112.74377pt x 79.69698pt.
+<images/S22_Mesh1.png, id=35, 1209.51875pt x 852.18375pt>
+File: images/S22_Mesh1.png Graphic file (type png)
+<use images/S22_Mesh1.png>
+Package pdftex.def Info: images/S22_Mesh1.png  used on input line 255.
+(pdftex.def)             Requested size: 225.4804pt x 158.86082pt.
+<images/S22_Mesh2.png, id=36, 1209.51875pt x 852.18375pt>
+File: images/S22_Mesh2.png Graphic file (type png)
+<use images/S22_Mesh2.png>
+Package pdftex.def Info: images/S22_Mesh2.png  used on input line 256.
+(pdftex.def)             Requested size: 225.4804pt x 158.86082pt.
+<images/S22_Mesh3.png, id=37, 1209.51875pt x 852.18375pt>
+File: images/S22_Mesh3.png Graphic file (type png)
+<use images/S22_Mesh3.png>
+Package pdftex.def Info: images/S22_Mesh3.png  used on input line 257.
+(pdftex.def)             Requested size: 225.4804pt x 158.86082pt.
+<images/S22_Mesh4.png, id=38, 1209.51875pt x 852.18375pt>
+File: images/S22_Mesh4.png Graphic file (type png)
+<use images/S22_Mesh4.png>
+Package pdftex.def Info: images/S22_Mesh4.png  used on input line 258.
+(pdftex.def)             Requested size: 225.4804pt x 158.86082pt.
 
 
-[5 <./visualize_tensileGraph/res/comparison_direct_calculated.png>]
-<visualize_tensileGraph/res/comparison_direct_calculated_modified.png, id=39, 476.982pt x 344.0052pt>
-File: visualize_tensileGraph/res/comparison_direct_calculated_modified.png Graphic file (type png)
-<use visualize_tensileGraph/res/comparison_direct_calculated_modified.png>
-Package pdftex.def Info: visualize_tensileGraph/res/comparison_direct_calculated_modified.png  used on input line 220.
-(pdftex.def)             Requested size: 399.29463pt x 287.9808pt.
+[5 <./images/Mesh1.png (PNG copy)> <./images/Mesh2.png> <./images/Mesh3.png> <./images/Mesh4.png> <./images/Mesh5.png> <./images/Mesh6.png> <./images/Mesh7.png> <./images/Mesh8.png>]
+<images/S22_Mesh5.png, id=50, 1209.51875pt x 852.18375pt>
+File: images/S22_Mesh5.png Graphic file (type png)
+<use images/S22_Mesh5.png>
+Package pdftex.def Info: images/S22_Mesh5.png  used on input line 264.
+(pdftex.def)             Requested size: 225.4804pt x 158.86082pt.
+<images/S22_Mesh6.png, id=51, 1209.51875pt x 852.18375pt>
+File: images/S22_Mesh6.png Graphic file (type png)
+<use images/S22_Mesh6.png>
+Package pdftex.def Info: images/S22_Mesh6.png  used on input line 265.
+(pdftex.def)             Requested size: 225.4804pt x 158.86082pt.
+<images/S22_Mesh7.png, id=52, 1209.51875pt x 852.18375pt>
+File: images/S22_Mesh7.png Graphic file (type png)
+<use images/S22_Mesh7.png>
+Package pdftex.def Info: images/S22_Mesh7.png  used on input line 266.
+(pdftex.def)             Requested size: 225.4804pt x 158.86082pt.
+<images/S22_Mesh8.png, id=53, 1209.51875pt x 852.18375pt>
+File: images/S22_Mesh8.png Graphic file (type png)
+<use images/S22_Mesh8.png>
+Package pdftex.def Info: images/S22_Mesh8.png  used on input line 267.
+(pdftex.def)             Requested size: 225.4804pt x 158.86082pt.
 
 
-[6 <./visualize_tensileGraph/res/comparison_direct_calculated_modified.png>]
-<visualize_tensileGraph/res/comparison_planeStress_planeStrain.png, id=44, 867.24pt x 578.16pt>
-File: visualize_tensileGraph/res/comparison_planeStress_planeStrain.png Graphic file (type png)
-<use visualize_tensileGraph/res/comparison_planeStress_planeStrain.png>
-Package pdftex.def Info: visualize_tensileGraph/res/comparison_planeStress_planeStrain.png  used on input line 234.
-(pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
+[6 <./images/S22_Mesh1.png> <./images/S22_Mesh2.png (PNG copy)> <./images/S22_Mesh3.png> <./images/S22_Mesh4.png (PNG copy)>]
+<images/StressConc.png, id=59, 512.1534pt x 307.3884pt>
+File: images/StressConc.png Graphic file (type png)
+<use images/StressConc.png>
+Package pdftex.def Info: images/StressConc.png  used on input line 281.
+(pdftex.def)             Requested size: 469.75502pt x 281.95178pt.
 
 
-[7 <./visualize_tensileGraph/res/comparison_planeStress_planeStrain.png>]
-<visualize_tensileGraph/res/comparison_inclusion_non.png, id=50, 867.24pt x 578.16pt>
-File: visualize_tensileGraph/res/comparison_inclusion_non.png Graphic file (type png)
-<use visualize_tensileGraph/res/comparison_inclusion_non.png>
-Package pdftex.def Info: visualize_tensileGraph/res/comparison_inclusion_non.png  used on input line 265.
-(pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
+[7 <./images/S22_Mesh5.png (PNG copy)> <./images/S22_Mesh6.png (PNG copy)> <./images/S22_Mesh7.png> <./images/S22_Mesh8.png (PNG copy)>]
+<images/Kt.png, id=65, 512.1534pt x 319.9152pt>
+File: images/Kt.png Graphic file (type png)
+<use images/Kt.png>
+Package pdftex.def Info: images/Kt.png  used on input line 292.
+(pdftex.def)             Requested size: 469.75502pt x 293.442pt.
 
 
-[8 <./visualize_tensileGraph/res/comparison_inclusion_non.png>]
+[8 <./images/StressConc.png>]
 
-[9]
-<images/MISES.png, id=58, 473.3685pt x 292.6935pt>
-File: images/MISES.png Graphic file (type png)
-<use images/MISES.png>
-Package pdftex.def Info: images/MISES.png  used on input line 316.
-(pdftex.def)             Requested size: 225.4804pt x 139.4194pt.
-<images/S11.png, id=59, 473.97075pt x 290.2845pt>
-File: images/S11.png Graphic file (type png)
-<use images/S11.png>
-Package pdftex.def Info: images/S11.png  used on input line 322.
-(pdftex.def)             Requested size: 225.4804pt x 138.09474pt.
-<images/S12.png, id=60, 473.97075pt x 292.09125pt>
-File: images/S12.png Graphic file (type png)
-<use images/S12.png>
-Package pdftex.def Info: images/S12.png  used on input line 328.
-(pdftex.def)             Requested size: 225.4804pt x 138.95424pt.
-<images/S22.png, id=61, 471.56175pt x 290.88675pt>
-File: images/S22.png Graphic file (type png)
-<use images/S22.png>
-Package pdftex.def Info: images/S22.png  used on input line 334.
-(pdftex.def)             Requested size: 225.4804pt x 139.09142pt.
+[9 <./images/Kt.png>]
 
+[10]
 
-[10 <./images/MISES.png> <./images/S11.png> <./images/S12.png> <./images/S22.png>]
-
-[11]
-
-[12]
-<images/MISES_Coarse.png, id=76, 473.3685pt x 292.6935pt>
-File: images/MISES_Coarse.png Graphic file (type png)
-<use images/MISES_Coarse.png>
-Package pdftex.def Info: images/MISES_Coarse.png  used on input line 471.
-(pdftex.def)             Requested size: 225.4804pt x 139.4194pt.
-<images/MISES_Fine.png, id=77, 473.97075pt x 293.898pt>
-File: images/MISES_Fine.png Graphic file (type png)
-<use images/MISES_Fine.png>
-Package pdftex.def Info: images/MISES_Fine.png  used on input line 477.
-(pdftex.def)             Requested size: 225.4804pt x 139.81375pt.
-<images/PEEQ_Coarse.png, id=78, 473.3685pt x 290.88675pt>
-File: images/PEEQ_Coarse.png Graphic file (type png)
-<use images/PEEQ_Coarse.png>
-Package pdftex.def Info: images/PEEQ_Coarse.png  used on input line 483.
-(pdftex.def)             Requested size: 225.4804pt x 138.55879pt.
-<images/PEEQ_Fine.png, id=79, 470.9595pt x 293.29575pt>
-File: images/PEEQ_Fine.png Graphic file (type png)
-<use images/PEEQ_Fine.png>
-Package pdftex.def Info: images/PEEQ_Fine.png  used on input line 489.
-(pdftex.def)             Requested size: 225.4804pt x 140.41785pt.
-
-
-[13]
-
-[14 <./images/MISES_Coarse.png> <./images/MISES_Fine.png> <./images/PEEQ_Coarse.png> <./images/PEEQ_Fine.png>]
-
-[15]
-
-[16]
-
-[17] (main.aux)
+[11] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
@@ -432,17 +426,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4732 strings out of 469923
- 82810 string characters out of 5462358
- 473081 words of memory out of 5000000
- 31531 multiletter control sequences out of 15000+600000
- 633802 words of font info for 64 fonts, out of 8000000 for 9000
+ 4739 strings out of 469923
+ 81763 string characters out of 5462358
+ 467777 words of memory out of 5000000
+ 31537 multiletter control sequences out of 15000+600000
+ 634161 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1215b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (17 pages, 2348107 bytes).
+ 57i,10n,65p,738b,362s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (11 pages, 2027475 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

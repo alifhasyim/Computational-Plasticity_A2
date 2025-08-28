@@ -63,7 +63,7 @@ class TensileTestVisualization:
         })
 
         plt.figure(figsize=(12, 8))
-        line_formats = ['-o', '--x', '-.^', '-']
+        line_formats = ['-', '-', '-', '-']
         for i, data in enumerate(self.datasets):
             fmt = line_formats[i % len(line_formats)]
             plt.plot(data["strain"], data["stress"], fmt, label=data["label"])
@@ -72,24 +72,23 @@ class TensileTestVisualization:
         plt.xlabel("Strain (mm/mm)")
         plt.ylabel("Stress (MPa)")
 
-        # Annotate max points for each curve
-        for i, data in enumerate(self.datasets):
-            max_idx = data["stress"].idxmax()
-            max_strain = data["strain"].iloc[max_idx]
-            max_stress = data["stress"].iloc[max_idx]
-            stress_unit = "MPa"
-            # Place annotation inside the graph, slightly below and to the right of the max point
-            xytext = (max_strain + 0.01, max_stress - 0.1 * abs(max_stress))
-            va, ha = 'top', 'right'
-            plt.annotate(
-            f"Max: {max_stress:.1f} {stress_unit}",
-            xy=(max_strain, max_stress),
-            xytext=xytext,
-            arrowprops=dict(arrowstyle="->", color="black"),
-            fontsize=14,
-            ha=ha,
-            va=va
-            )
+        # The annotation code is intentionally disabled.
+        # for i, data in enumerate(self.datasets):
+        #     max_idx = data["stress"].idxmax()
+        #     max_strain = data["strain"].iloc[max_idx]
+        #     max_stress = data["stress"].iloc[max_idx]
+        #     stress_unit = "MPa"
+        #     xytext = (max_strain + 0.01, max_stress - 0.1 * abs(max_stress))
+        #     va, ha = 'top', 'right'
+        #     plt.annotate(
+        #         f"Max: {max_stress:.1f} {stress_unit}",
+        #         xy=(max_strain, max_stress),
+        #         xytext=xytext,
+        #         arrowprops=dict(arrowstyle="->", color="black"),
+        #         fontsize=14,
+        #         ha=ha,
+        #         va=va
+        #     )
         plt.legend(loc='lower right', title="Method of Curve Extraction")
         plt.grid(True, which='both', linestyle='--', linewidth=0.7, alpha=0.7)
         plt.minorticks_on()
@@ -97,6 +96,7 @@ class TensileTestVisualization:
         self.output_path.parent.mkdir(parents=True, exist_ok=True)
         plt.savefig(self.output_path)
         print(f"Plot saved to: {self.output_path}")
+        plt.show()
 
 
 def main():
@@ -105,11 +105,12 @@ def main():
     project_root = Path(__file__).resolve().parents[2]
 
     input_directory = project_root / "visualize_tensileGraph" / "resources"
-    output_plot_path = project_root / "visualize_tensileGraph" / "res" / "comparison_direct_calculated.png"
+    output_plot_path = project_root / "visualize_tensileGraph" / "res" / "Hardening_Graph.png"
     
     file_names = {
-        "Direct Stress-Strain Extraction": "Direct_PlaneStress.dat",
-        "Calculated from Force-Diplacement ": "Calculated_PlaneStress.dat"
+        "Isotropic Hardening": "isotropic_hardening.dat",
+        "Combined Hardening": "combined_hardening.dat",
+        "Kinematic Hardening": "kinematic_hardening.dat"
     }
 
     cross_section_mm2 = 1 
