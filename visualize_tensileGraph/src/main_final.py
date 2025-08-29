@@ -66,7 +66,7 @@ class TensileTestVisualization:
         line_formats = ['-', '-', '-', '-']
         for i, data in enumerate(self.datasets):
             fmt = line_formats[i % len(line_formats)]
-            plt.plot(data["strain"], data["stress"], fmt, label=data["label"])
+            plt.plot(data["strain"], data["stress"], fmt, label=data["label"], linewidth=1.5)
 
         plt.title("Stress-Strain Curve for Plane Stress Condition")
         plt.xlabel("Strain (mm/mm)")
@@ -105,12 +105,12 @@ def main():
     project_root = Path(__file__).resolve().parents[2]
 
     input_directory = project_root / "visualize_tensileGraph" / "resources"
-    output_plot_path = project_root / "visualize_tensileGraph" / "res" / "Hardening_Graph.png"
+    output_plot_path = project_root / "visualize_tensileGraph" / "res" / "All_Hardening.png"
     
     file_names = {
         "Isotropic Hardening": "isotropic_hardening.dat",
-        "Combined Hardening": "combined_hardening.dat",
-        "Kinematic Hardening": "kinematic_hardening.dat"
+        "Kinematic Hardening": "kinematic_hardening.dat",
+        "Combined Hardening": "combined_hardening.dat"
     }
 
     cross_section_mm2 = 1 

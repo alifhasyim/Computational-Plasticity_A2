@@ -45,7 +45,7 @@ Parameter for 2nd question:
 \begin{itemize}
     \item $\sigma_y = 600 + (a \times 33) = 600 + (4 \times 33) = 600 + 132 = 732 \;\text{MPa}$
     \item $C_1 = 10000 + b \times 1666 = 10000 + 6 \times 1666 = 10000 + 9996 = 19996 \;\text{MPa}$
-    \item $\gamma_1 = 200 + (10 \times c) = 200 + (10 \times 8) = 280 \;\text{MPa}$
+    \item $\gamma_1 = 20 + (3 \times c) = 20 + (3 \times 8) = 44 \;\text{MPa}$
     \item $C_2 = 3000 + (a \times 166) = 3000 + (4 \times 166) = 3000 + 664 = 3664 \;\text{MPa}$
 \end{itemize}
 
@@ -110,7 +110,7 @@ some parameters must be manually calculated based on the author's Immatrikulatio
         \toprule
         $\sigma_y$ (MPa) & $C_1$ (MPa) & $\gamma_1$ & $C_2$ (MPa) & $\gamma_2$ & Q-Infinity & Hardening Param $b$ \\
         \midrule
-        732 & 19996 & 280 & 3664 & 0 & 440 & 20 \\
+        732 & 19996 & 44 & 3664 & 0 & 440 & 20 \\
         \bottomrule
     \end{tabular}
 \end{table}
@@ -304,6 +304,20 @@ Create and submit two figures: one showing the mesh of the proposed model,
 and the other displaying contour plot of the relevant stress distribution. 
 Compare it to the original model.}
 
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/half_mesh.png}
+        \vspace{-2.6em} % Adjust this value to move the image down
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/half.png}
+    \end{minipage}
+    \caption{(Left) Mesh of the proposed half-symmetry model. (Right) Contour plot of the relevant stress distribution for the half model. The simplified model reduces computational cost while maintaining accuracy due to symmetry.}
+\end{figure}
 
 \newpage
 \subsection*{Q2: Investigate the effects of isotropic and kinematic hardening on the mechanical behavior of a material}
