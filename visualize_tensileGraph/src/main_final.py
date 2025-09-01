@@ -66,9 +66,9 @@ class TensileTestVisualization:
         line_formats = ['-', '-', '-', '-']
         for i, data in enumerate(self.datasets):
             fmt = line_formats[i % len(line_formats)]
-            plt.plot(data["strain"], data["stress"], fmt, label=data["label"], linewidth=1.5)
+            plt.plot(data["strain"], data["stress"], fmt, label=data["label"], linewidth=1.5, color='green')
 
-        plt.title("Stress-Strain Curve for Plane Stress Condition")
+        plt.title("Stress - Strain Hardening Curve for Plane Stress Condition")
         plt.xlabel("Strain (mm/mm)")
         plt.ylabel("Stress (MPa)")
 
@@ -89,7 +89,7 @@ class TensileTestVisualization:
         #         ha=ha,
         #         va=va
         #     )
-        plt.legend(loc='lower right', title="Method of Curve Extraction")
+        plt.legend(loc='lower right', title="Hardening Curve")
         plt.grid(True, which='both', linestyle='--', linewidth=0.7, alpha=0.7)
         plt.minorticks_on()
 
@@ -108,9 +108,9 @@ def main():
     output_plot_path = project_root / "visualize_tensileGraph" / "res" / "All_Hardening.png"
     
     file_names = {
+        "Combined Hardening": "combined_hardening.dat",
         "Isotropic Hardening": "isotropic_hardening.dat",
-        "Kinematic Hardening": "kinematic_hardening.dat",
-        "Combined Hardening": "combined_hardening.dat"
+        "Kinematic Hardening": "kinematic_hardening.dat"
     }
 
     cross_section_mm2 = 1 
