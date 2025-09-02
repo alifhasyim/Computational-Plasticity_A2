@@ -329,12 +329,24 @@ Perform a cyclic loading simulation (tension-compression)
 using the amplitude plotted in figure 3. Plot and analyze the stress-strain hysteresis loops.}
 \vspace{1em}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Iso_Hard.png}
+    \caption{Stress-strain hysteresis loop for the isotropic hardening model under cyclic tension-compression loading. The plot illustrates the expansion of the yield surface and the corresponding material response.}
+\end{figure}
+
 \textit{$\dots$\textbf{Kinematic Hardening Model:} Set the material parameters for 
 the kinematic hardening model, assuming no isotropic hardening. 
 Perform a cyclic loading simulation (tension-compression) using 
 the amplitude plotted in figure 3. 
 Plot and analyze the stress-strain hysteresis loops.}
 \vspace{1em}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Kin_Hard.png}
+    \caption{Stress-strain hysteresis loop for the kinematic hardening model under cyclic tension-compression loading. The plot demonstrates the translation of the yield surface and the corresponding material response.}
+\end{figure}
 
 \textit{$\dots$Compare the extracted curves from previous questions and discuss the results.}
 \vspace{1em}
@@ -343,6 +355,18 @@ Plot and analyze the stress-strain hysteresis loops.}
 Compare the results with those obtained using isotropic and kinematic hardening parameters. 
 Discuss how variations in the combined hardening parameters influence the material behavior.}
 \vspace{1em}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Com_Hard.png}
+    \caption{Stress-strain hysteresis loop for the combined hardening model under cyclic tension-compression loading. The plot shows the material response when both isotropic and kinematic hardening mechanisms are active, illustrating the combined effects on the expansion and translation of the yield surface.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Hardening_Graph.png}
+    \caption{Comparison of stress-strain hysteresis loops for isotropic, kinematic, and combined hardening models under cyclic tension-compression loading. The plot highlights the differences in material response due to the various hardening mechanisms.}
+\end{figure}
 
 \subsection*{Q3: Standard and UMAT subroutine for J2 plasticity}
 \vspace{1em}
@@ -356,16 +380,133 @@ the Abaqus embedded J2 model and one with UMAT. Plot, compare, and discuss the t
 curve for both cases.}
 \vspace{1em}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{visualize_tensileGraph/res/TrueStressStrain_J2.png}
+    \caption{Zoomed-in view of the true stress-strain curve from the tensile simulation, highlighting the detailed behavior near the onset of necking and plastic deformation.}
+\end{figure}
+
 \textit{$\dots$From the embedded J2 simulation, select four representative time frames that trace the
 evolution from the purely elastic status to the onset of localized necking, present for each frame
 a contour plot of von Mises stress and equivalent plastic strain. Describe the deformation
 process of the plate with a hole.}
 \vspace{1em}
 
+%% Von Mises
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-3/MISES_1.png}
+        \caption*{(a) von Mises stress, Frame 1}
+        \vspace{2em}
+    \end{minipage}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-3/MISES_2.png}
+        \caption*{(b) von Mises stress, Frame 2}
+        \vspace{2em}
+    \end{minipage}
+    \vspace{1em}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-3/MISES_3.png}
+        \caption*{(c) von Mises stress, Frame 3}
+    \end{minipage}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-3/MISES_4.png}
+        \caption*{(d) von Mises stress, Frame 4}
+    \end{minipage}
+    \caption{Contour plots of von Mises stress at four representative time frames from the embedded J2 simulation, showing the evolution from elastic to localized necking.}
+\end{figure}
+
+%% PEEQ
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-3/PEEQ_1.png}
+        \caption*{(a) Equivalent plastic strain, Frame 1}
+        \vspace{2em}
+    \end{minipage}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-3/PEEQ_2.png}
+        \caption*{(b) Equivalent plastic strain, Frame 2}
+        \vspace{2em}
+    \end{minipage}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-3/PEEQ_3.png}
+        \caption*{(c) Equivalent plastic strain, Frame 3}
+    \end{minipage}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-3/PEEQ_4.png}
+        \caption*{(d) Equivalent plastic strain, Frame 4}
+    \end{minipage}
+    \caption{Contour plots of equivalent plastic strain at four representative time frames from the embedded J2 simulation, illustrating the progression of plastic deformation and localization.}
+\end{figure}
+
 \textit{$\dots$From the UMAT simulation, plot the distribution of the relevant stress and plastic strain
 components for the final time, indicating the meaning of the different SDVs, showing the
 maximum and minimum location, then discussing the results for different regions.}
 \vspace{1em}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV1.png}
+    \caption{SDV1: Distribution of the first state-dependent variable (SDV1) at the final simulation time, representing the relevant stress or plastic strain component. Maximum and minimum locations are indicated.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV2.png}
+    \caption{SDV2: Distribution of the second state-dependent variable (SDV2) at the final simulation time. This may correspond to an internal variable such as accumulated plastic strain or backstress.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV3.png}
+    \caption{SDV3: Distribution of the third state-dependent variable (SDV3) at the final simulation time, indicating another relevant mechanical quantity tracked by the UMAT.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV4.png}
+    \caption{SDV4: Distribution of the fourth state-dependent variable (SDV4) at the final simulation time, showing the spatial variation and localization effects.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV5.png}
+    \caption{SDV5: Distribution of the fifth state-dependent variable (SDV5) at the final simulation time, highlighting regions of maximum and minimum values.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV6.png}
+    \caption{SDV6: Distribution of the sixth state-dependent variable (SDV6) at the final simulation time, illustrating the evolution of the corresponding mechanical response.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV7.png}
+    \caption{SDV7: Distribution of the seventh state-dependent variable (SDV7) at the final simulation time, with maximum and minimum locations marked.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV8.png}
+    \caption{SDV8: Distribution of the eighth state-dependent variable (SDV8) at the final simulation time, showing the spatial variation across the plate.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV9.png}
+    \caption{SDV9: Distribution of the ninth state-dependent variable (SDV9) at the final simulation time, indicating the final state of the relevant mechanical quantity.}
+\end{figure}
 
 \section*{Conclusion}
 To sum up everything that have been analyzed and gathered in this study, 
