@@ -374,7 +374,29 @@ Discuss how variations in the combined hardening parameters influence the materi
 a screenshot that shows the code lines where this choice is made and where elastic stiffness
 and equivalent von mises stress is calculated, and give an explanation based on the lecture.}
 \vspace{1em}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-PlaneStrain.png}
+    \caption{Code section in the UMAT where the plane strain or plane stress condition is selected. This determines the appropriate constitutive behavior for the simulation.}
+    \label{fig:Q3-PlaneStrain}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-ElasticStiffness.png}
+    \caption{Code lines in the UMAT where the elastic stiffness matrix is calculated. This matrix defines the linear elastic response of the material.}
+    \label{fig:Q3-ElasticStiffness}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{images/Q3-VonMises.png}
+    \caption{Code section in the UMAT where the equivalent von Mises stress is computed. This value is used to evaluate yielding according to the J2 plasticity criterion.}
+    \label{fig:Q3-VonMises}
+\end{figure}
+
+References to these figures can be made as Figure~\ref{fig:Q3-PlaneStrain}, Figure~\ref{fig:Q3-ElasticStiffness}, and Figure~\ref{fig:Q3-VonMises}.
+\vspace{1em}
 \textit{$\dots$Run two simulations with a displacement of 0.5 mm and same material properties: one with
 the Abaqus embedded J2 model and one with UMAT. Plot, compare, and discuss the true stress-strain
 curve for both cases.}
@@ -383,9 +405,18 @@ curve for both cases.}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{visualize_tensileGraph/res/TrueStressStrain_J2.png}
-    \caption{Zoomed-in view of the true stress-strain curve from the tensile simulation, highlighting the detailed behavior near the onset of necking and plastic deformation.}
+    \caption{Zoomed-in view of the true stress-strain curve from the tensile simulation, highlighting the detailed behavior near the area of necking and plastic deformation.}
 \end{figure}
 
+\hspace{1em} Figure above shows the true stress-strain curves for J2-UMAT model
+and J2-Abaqus. Both of the curve having the same overall behavior in the elastic and plastic area.
+However in the elastic-plastic transition area, J2-Abaqus yielded first by showing the slope changing 
+in the curve, while J2-UMAT still maintain its slope at the same level of strain value. From this
+it can be concluded that the J2-UMAT model exhibits a more stable response during the transition from
+elastic to plastic behavior. This shows by a higher value for the yielding point in J2-UMAT and the change to plastic
+region is more sudden rather gradual compare to the J2-Abaqus model. 
+
+\vspace{1em}
 \textit{$\dots$From the embedded J2 simulation, select four representative time frames that trace the
 evolution from the purely elastic status to the onset of localized necking, present for each frame
 a contour plot of von Mises stress and equivalent plastic strain. Describe the deformation
@@ -418,7 +449,14 @@ process of the plate with a hole.}
         \includegraphics[width=\textwidth]{images/Q3-3/MISES_4.png}
         \caption*{(d) von Mises stress, Frame 4}
     \end{minipage}
-    \caption{Contour plots of von Mises stress at four representative time frames from the embedded J2 simulation, showing the evolution from elastic to localized necking.}
+    \caption{Contour plots of von Mises stress at four 
+    representative time frames from the 
+    embedded J2 simulation, 
+    showing the evolution from elastic to 
+    localized necking. The von Mises stress grows
+    starting from the initial loading phase in time frame 1, where
+    it is at the elastic region. At frame 2, it starts to deform plastically
+    as the stress distribution starts to yield.}
 \end{figure}
 
 %% PEEQ
