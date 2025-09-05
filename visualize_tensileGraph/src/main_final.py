@@ -63,16 +63,16 @@ class TensileTestVisualization:
         })
 
         plt.figure(figsize=(12, 8))
-        line_formats = ['-o', '-', '--', ':']  # '-o' is a solid line with circle markers
-        color_formats = ['g', 'r', 'g', 'm', 'c', 'y', 'k']
+        line_formats = ['-', '-', '-', ':']  # '-o' is a solid line with circle markers
+        color_formats = ['r', 'r', 'r', 'm', 'c', 'y', 'k']
         for i, data in enumerate(self.datasets):
             fmt = line_formats[i % len(line_formats)]
             color = color_formats[i % len(color_formats)]
-            plt.plot(data["strain"], data["stress"], fmt, label=data["label"], linewidth=2, color=color)
+            plt.plot(data["strain"], data["stress"], fmt, label=data["label"], linewidth=1.5, color=color)
 
-        plt.title("Stress - Strain Hardening Curve for Plane Stress Condition")
-        plt.xlabel("Strain (mm/mm)")
-        plt.ylabel("Stress (MPa)")
+        plt.title("Cyclic Amplitude for 20 second Loading")
+        plt.xlabel("Time (sec)")
+        plt.ylabel("Amplitude (Ratio of max amplitude)")
 
         # The annotation code is intentionally disabled.
         # for i, data in enumerate(self.datasets):
@@ -91,7 +91,7 @@ class TensileTestVisualization:
         #         ha=ha,
         #         va=va
         #     )
-        plt.legend(loc='lower right', title="Hardening Curve")
+        plt.legend(loc='lower right', title="")
         plt.grid(True, which='both', linestyle='--', linewidth=0.7, alpha=0.7)
         plt.minorticks_on()
 
@@ -107,11 +107,10 @@ def main():
     project_root = Path(__file__).resolve().parents[2]
 
     input_directory = project_root / "visualize_tensileGraph" / "resources"
-    output_plot_path = project_root / "visualize_tensileGraph" / "res" / "TrueStressStrain.png"
+    output_plot_path = project_root / "visualize_tensileGraph" / "res" / "cyclic_amplitude.png"
     
     file_names = {
-        "J2-UMAT": "J2-UMAT.dat",
-        "J2-Abaqus": "J2-Abaqus.dat"
+        "Cyclic Amplitude": "cyclic_amplitude.dat"
     }
 
     cross_section_mm2 = 1 

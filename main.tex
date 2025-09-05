@@ -269,25 +269,25 @@ Please ensure the contour plots are clearly presented, and the values are readab
 \begin{figure}[H]
     \centering
     \label{fig:S22_Mesh1-4}
-    \begin{minipage}{0.48\textwidth}
+    \begin{minipage}{0.495\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/S22_Mesh1.png}
         \caption*{\small Mesh 1}
     \end{minipage}
     \hfill
-    \begin{minipage}{0.48\textwidth}
+    \begin{minipage}{0.495\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/S22_Mesh2.png}
         \caption*{\small Mesh 2}
     \end{minipage}
     \vspace{1em}
-    \begin{minipage}{0.48\textwidth}
+    \begin{minipage}{0.495\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/S22_Mesh3.png}
         \caption*{\small Mesh 3}
     \end{minipage}
     \hfill
-    \begin{minipage}{0.48\textwidth}
+    \begin{minipage}{0.495\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/S22_Mesh4.png}
         \caption*{\small Mesh 4}
@@ -308,22 +308,22 @@ indicating a more accurate capture of the stress concentration effect.
 
 \begin{figure}[H]
     \centering
-    \begin{minipage}{0.49\textwidth}
+    \begin{minipage}{0.495\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/S22_Mesh5.png}
         \caption*{\small Mesh 5}
     \end{minipage}
-    \begin{minipage}{0.49\textwidth}
+    \begin{minipage}{0.495\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/S22_Mesh6.png}
         \caption*{\small Mesh 6}
     \end{minipage}\\[1em]
-    \begin{minipage}{0.49\textwidth}
+    \begin{minipage}{0.495\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/S22_Mesh7.png}
         \caption*{\small Mesh 7}
     \end{minipage}
-    \begin{minipage}{0.49\textwidth}
+    \begin{minipage}{0.495\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/S22_Mesh8.png}
         \caption*{\small Mesh 8}
@@ -441,13 +441,13 @@ fewer areas which represent the full model.
 
 \begin{figure}[H]
     \centering
-    \begin{minipage}{0.48\textwidth}
+    \begin{minipage}{0.54\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/S22_Mesh4.png}
         \caption*{Full model}
     \end{minipage}
     \hfill
-    \begin{minipage}{0.48\textwidth}
+    \begin{minipage}{0.44\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/S22_Mesh4_half.png}
         \caption*{Half-symmetry model}
@@ -459,36 +459,97 @@ fewer areas which represent the full model.
 
 \newpage
 \subsection*{Q2: Investigate the effects of isotropic and kinematic hardening on the mechanical behavior of a material}
+\hspace{2em}In this question, the focus will be to investigate the isotropic
+and kinematic hardening effect to its mechanical response. The analysis will
+be conducted using an uniaxial tensile test model, where the geometry is from previous
+question 1. But here instead of using a nominal stress $\sigma_{nominal}$, a displacement of 
+0.2 mm will be applied to the top edge of the plate, while the rest of the boundary conditions
+is similar as in figure~\ref{fig:MeshPartitioning}. However, since hardening effects would be investigated,
+cyclic loading will be applied to the model. A cyclic amplitude in figure~\ref{fig:CyclicAmplitude} is used
+to perform the cyclic loading simulation based on the total displacement of 0.2 mm. 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{visualize_tensileGraph/res/cyclic_amplitude.png}
+    \caption{Applied cyclic loading amplitude for the tension-compression simulation. The plot shows the displacement history used to investigate the hardening behavior under repeated loading cycles.}
+    \label{fig:CyclicAmplitude}
+\end{figure}
+\newpage
 \vspace{1em}
 \textit{$\dots$\textbf{Isotropic Hardening Model:} Set the material parameters for the 
 isotropic hardening model, keeping kinematic hardening deactivated. 
 Perform a cyclic loading simulation (tension-compression) 
 using the amplitude plotted in figure 3. Plot and analyze the stress-strain hysteresis loops.}
-\vspace{1em}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Iso_Hard.png}
-    \caption{Stress-strain hysteresis loop for the isotropic hardening model under cyclic tension-compression loading. The plot illustrates the expansion of the yield surface and the corresponding material response.}
+    \caption{Stress-strain hysteresis loop for the isotropic hardening model under cyclic tension-compression loading. 
+    The plot illustrates the expansion of the yield surface and the 
+    corresponding material response. For this isotropic hardening model, Q-infinity and hardening
+    parameter b are set according to~\ref{tab:materialQ2-properties}, whereas the $C_1$, $\gamma_1$, and $C_2$ 
+    are set to zero to disable the kinematic hardening effect.}
+    \label{fig:Iso_Hard}
 \end{figure}
+\vspace{1em}
+\hspace{2em}Figure~\ref{fig:Iso_Hard} 
+shows the stress-strain hysteresis loop for the isotropic hardening model 
+under cyclic tension-compression loading. As the cyclic load applied, at first cycle the material
+starts to yield at the initial yield stress of 732 MPa. As the loading continues and changing direction
+to compression, the yield surface starts to expand isotropically, leading to 
+an increase in the yield stress for subsequent cycles. 
+This expansion of the yield surface is characteristic of isotropic hardening,
+where the material's resistance to plastic deformation increases uniformly
+in all directions. 
 
+\newpage
 \textit{$\dots$\textbf{Kinematic Hardening Model:} Set the material parameters for 
 the kinematic hardening model, assuming no isotropic hardening. 
 Perform a cyclic loading simulation (tension-compression) using 
 the amplitude plotted in figure 3. 
 Plot and analyze the stress-strain hysteresis loops.}
 \vspace{1em}
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Kin_Hard.png}
     \caption{Stress-strain hysteresis loop for the kinematic hardening model under cyclic tension-compression loading. The plot demonstrates the translation of the yield surface and the corresponding material response.}
+    \label{fig:Kin_Hard}
 \end{figure}
+\vspace{1em}
+\hspace{2em}Figure~\ref{fig:Kin_Hard} shows the stress-strain hysteresis 
+loop for the kinematic hardening model under cyclic tension-compression 
+loading. Unlike the isotropic hardening case, the yield surface translates 
+in the stress space without changing its size. 
+This behavior indicates that kinematic hardening occurs, where the material's 
+yield surface moves in response to plastic deformation, allowing for a 
+more accurate representation of the Bauschinger effect. 
 
+\newpage
 \textit{$\dots$Compare the extracted curves from previous questions and discuss the results.}
 \vspace{1em}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Iso_Kinem_Comparison.png}
+    \caption{Comparison of stress-strain hysteresis loops for isotropic and kinematic hardening models under cyclic tension-compression loading. The plot highlights the differences in material response due to the various hardening mechanisms.}
+    \label{fig:Iso_Kinem_Comparison}
+\end{figure}
+\vspace{1em}
+\hspace{2em}Figure~\ref{fig:Iso_Kinem_Comparison} shows the comparison of 
+stress-strain hysteresis loops for isotropic and kinematic hardening models 
+under cyclic tension-compression loading. 
+The isotropic hardening model exhibits a symmetric hysteresis loop, 
+indicating uniform expansion of the yield surface in all directions. 
+In contrast, the kinematic hardening model shows an asymmetric hysteresis 
+loop, reflecting the translation of the yield surface in response to 
+plastic deformation. The difference from these two models is obvious,
+where the isotropic hardening model shows a larger area within the hysteresis
+loop, indicating higher energy dissipation during cyclic loading. 
+This is due to the uniform increase in yield stress that allows in this model. While 
+in the kinematic hardening model, increase in yield stress does not occur, only
+shifting of yield surface is allowed. Therefore, the energy dissipation
+is lower compared to the isotropic hardening model.
 
+\newpage
 \textit{$\dots$Simulate the model using combined hardening law parameters in table 2. 
 Compare the results with those obtained using isotropic and kinematic hardening parameters. 
 Discuss how variations in the combined hardening parameters influence the material behavior.}
@@ -498,13 +559,31 @@ Discuss how variations in the combined hardening parameters influence the materi
     \centering
     \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Com_Hard.png}
     \caption{Stress-strain hysteresis loop for the combined hardening model under cyclic tension-compression loading. The plot shows the material response when both isotropic and kinematic hardening mechanisms are active, illustrating the combined effects on the expansion and translation of the yield surface.}
+    \label{fig:Com_Hard}
 \end{figure}
 
+\hspace{2em}As both of the model are combined, the stress-strain hysteresis
+loop for the combined hardening model is shown in figure~\ref{fig:Com_Hard}. This shows
+a unique material behavior, whereas the cyclic loading is applied, 
+the yield surface expands isotropically as well as translating in the 
+stress space. This combined effect results in a more complex hysteresis loop, 
+which reflects the play role between isotropic and kinematic hardening
+mechanisms. The combined hardening model produced a larger hysteresis loop
+area compared to the kinematic, as well as for the isotropic hardening model. 
+
+\hspace{2em}This is because the combined hardening model incorporates both of the hardening
+model, so that it have the ability to increase the yield stress surface as well shifting
+the yield surface. Therefore, the energy dissipation during cyclic loading 
+is higher than the other two models. A comparison of all three hardening models is 
+shown in figure~\ref{fig:Hardening_Comparison}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Hardening_Graph.png}
     \caption{Comparison of stress-strain hysteresis loops for isotropic, kinematic, and combined hardening models under cyclic tension-compression loading. The plot highlights the differences in material response due to the various hardening mechanisms.}
+    \label{fig:Hardening_Comparison}
 \end{figure}
+
+
 \newpage
 \subsection*{Q3: Standard and UMAT subroutine for J2 plasticity}
 \vspace{1em}
