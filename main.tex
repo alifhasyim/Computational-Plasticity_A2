@@ -487,7 +487,7 @@ using the amplitude plotted in figure 3. Plot and analyze the stress-strain hyst
     \caption{Stress-strain hysteresis loop for the isotropic hardening model under cyclic tension-compression loading. 
     The plot illustrates the expansion of the yield surface and the 
     corresponding material response. For this isotropic hardening model, Q-infinity and hardening
-    parameter b are set according to~\ref{tab:materialQ2-properties}, whereas the $C_1$, $\gamma_1$, and $C_2$ 
+    parameter b are set according to table~\ref{tab:materialQ2-properties}, whereas the $C_1$, $\gamma_1$, and $C_2$ 
     are set to zero to disable the kinematic hardening effect.}
     \label{fig:Iso_Hard}
 \end{figure}
@@ -512,7 +512,13 @@ Plot and analyze the stress-strain hysteresis loops.}
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Kin_Hard.png}
-    \caption{Stress-strain hysteresis loop for the kinematic hardening model under cyclic tension-compression loading. The plot demonstrates the translation of the yield surface and the corresponding material response.}
+    \caption{Stress-strain hysteresis loop for the kinematic hardening model under 
+    cyclic tension-compression loading. The plot demonstrates the translation of the yield surface and 
+    the corresponding material response. For this kinematic hardening model,
+    Q-infinity and hardening parameter b are set to zero to disable the isotropic hardening.
+    While parameters such as $C_1$, $\gamma_1$, and $C_2$ 
+    are set according to table~\ref{tab:materialQ2-properties} in order to
+    activate kinematic hardening.}
     \label{fig:Kin_Hard}
 \end{figure}
 \vspace{1em}
@@ -530,7 +536,10 @@ more accurate representation of the Bauschinger effect.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Iso_Kinem_Comparison.png}
-    \caption{Comparison of stress-strain hysteresis loops for isotropic and kinematic hardening models under cyclic tension-compression loading. The plot highlights the differences in material response due to the various hardening mechanisms.}
+    \caption{Comparison of stress-strain hysteresis loops for isotropic and kinematic 
+    hardening models under cyclic tension-compression loading. 
+    The plot highlights the differences in material response 
+    due to both hardening mechanisms.}
     \label{fig:Iso_Kinem_Comparison}
 \end{figure}
 \vspace{1em}
@@ -558,7 +567,12 @@ Discuss how variations in the combined hardening parameters influence the materi
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Com_Hard.png}
-    \caption{Stress-strain hysteresis loop for the combined hardening model under cyclic tension-compression loading. The plot shows the material response when both isotropic and kinematic hardening mechanisms are active, illustrating the combined effects on the expansion and translation of the yield surface.}
+    \caption{Stress-strain hysteresis loop for the combined hardening model 
+    under cyclic tension-compression loading. 
+    The plot shows the material response when both 
+    isotropic and kinematic hardening mechanisms are active, 
+    illustrating the combined effects on the expansion and 
+    translation of the yield surface.}
     \label{fig:Com_Hard}
 \end{figure}
 
@@ -579,7 +593,15 @@ shown in figure~\ref{fig:Hardening_Comparison}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{visualize_tensileGraph/res/Hardening_Graph.png}
-    \caption{Comparison of stress-strain hysteresis loops for isotropic, kinematic, and combined hardening models under cyclic tension-compression loading. The plot highlights the differences in material response due to the various hardening mechanisms.}
+    \caption{Comparison of stress-strain hysteresis loops for isotropic, 
+    kinematic, and combined hardening models under cyclic 
+    tension-compression loading. 
+    The plot highlights the differences in material 
+    response due to these three hardening mechanisms. It shows that when the first
+    time material yielded, both 3 hardening mechanism are having the same transitional
+    elastic-plastic breaking point. However, as the loading increase, combined hardening have
+    the highest hardening modulus, where this is shown by the highest hardening development
+    (steeper slope) compared to the kinematic and isotropic hardening model. }
     \label{fig:Hardening_Comparison}
 \end{figure}
 
@@ -593,28 +615,45 @@ and equivalent von mises stress is calculated, and give an explanation based on 
 \vspace{1em}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-PlaneStrain.png}
+    \includegraphics[width=1\textwidth]{images/Q3-PlaneStrain.png}
     \caption{Code section in the UMAT where the plane strain or plane stress condition is selected. This determines the appropriate constitutive behavior for the simulation.}
     \label{fig:Q3-PlaneStrain}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-ElasticStiffness.png}
+    \includegraphics[width=1\textwidth]{images/Q3-ElasticStiffness.png}
     \caption{Code lines in the UMAT where the elastic stiffness matrix is calculated. This matrix defines the linear elastic response of the material.}
     \label{fig:Q3-ElasticStiffness}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-VonMises.png}
+    \includegraphics[width=1\textwidth]{images/Q3-VonMises.png}
     \caption{Code section in the UMAT where the equivalent von Mises stress is computed. This value is used to evaluate yielding according to the J2 plasticity criterion.}
     \label{fig:Q3-VonMises}
 \end{figure}
 
-References to these figures can be made as Figure~\ref{fig:Q3-PlaneStrain}, Figure~\ref{fig:Q3-ElasticStiffness}, and Figure~\ref{fig:Q3-VonMises}.
+\hspace{2em}Figure~\ref{fig:Q3-PlaneStrain} shows the code section of the UMAT subroutine file
+in which explicitly stated that the simulation should use 
+plane strain instead of plane stress. This is done by set up the 
+mesh type that will be used in the simulation, whereas plane strain mesh type, hence
+CPE4  (A 4-node bilinear plane strain quadrilateral) in Abaqus, is utilized. Another 
+supporting facts that this model is using plane strain condition is stated
+in the equation definition of the elastic stiffness matrix in figure~\ref{fig:Q3-ElasticStiffness}, as
+ well for Von Misses stress calculation in figure~\ref{fig:Q3-VonMises}. Where in both equations,
+ the UMAT subroutine file is considering the out-of-plane stress
+ component, $\sigma_{33}$, which for other case is zero in plane stress condition. From the lecture,
+ $\sigma_{33}$ have the relation as follows:
 
+ \begin{equation}
+    \sigma_{33} = \nu(\sigma_{11} + \sigma_{22}) = \frac{E\nu}{(1+\nu)(1-2\nu)}(\varepsilon_{11} + \varepsilon_{22})
+ \end{equation}
 \vspace{1em}
+Whereas in this equation, $\sigma_{33}$ is expressed using the in-plane stress components
+(which here is the 11 and 22 component) and the material properties such as 
+Young's modulus, $E$, and Poisson's ratio, $\nu$.
+
 \textit{$\dots$Run two simulations with a displacement of 0.5 mm and same material properties: one with
 the Abaqus embedded J2 model and one with UMAT. Plot, compare, and discuss the true stress-strain
 curve for both cases.}
@@ -622,17 +661,16 @@ curve for both cases.}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{visualize_tensileGraph/res/TrueStressStrain_J2.png}
-    \caption{Zoomed-in view of the true stress-strain curve from the tensile simulation, highlighting the detailed behavior near the area of necking and plastic deformation.}
+    \includegraphics[width=0.9\textwidth]{visualize_tensileGraph/res/TrueStressStrain.png}
+    \caption{Comparison of tensile test for both J2-UMAt and J2-Abaqus model. 
+    The plot shows the true stress-strain curves for both models.}
 \end{figure}
 
 \hspace{1em} Figure above shows the true stress-strain curves for J2-UMAT model
 and J2-Abaqus. Both of the curve having the same overall behavior in the elastic and plastic area.
-However in the elastic-plastic transition area, J2-Abaqus yielded first by showing the slope changing 
-in the curve, while J2-UMAT still maintain its slope at the same level of strain value. From this
-it can be concluded that the J2-UMAT model exhibits a more stable response during the transition from
-elastic to plastic behavior. This shows by a higher value for the yielding point in J2-UMAT and the change to plastic
-region is more sudden rather gradual compare to the J2-Abaqus model. 
+The elastic-plastic transition and the plastic region seems to have the exact behavior, which hence illustrated
+using a dot curve that plot for each model, where for each data points both curves showing the 
+exact same results.  
 
 \vspace{1em}
 \textit{$\dots$From the embedded J2 simulation, select four representative time frames that trace the
@@ -675,7 +713,14 @@ process of the plate with a hole.}
     starting from the initial loading phase in time frame 1, where
     it is at the elastic region. At frame 2, it starts to deform plastically
     as the stress distribution starts to yield.}
+    \label{fig:J2-Abaqus}
 \end{figure}
+\vspace{1em}
+\hspace{2em}Figure above shows the contour plots of the J2-Abaqus model development.
+The extracted plot starts from frame 1 in figure~\ref{fig:J2-Abaqus}(a), where the 
+material is still in elastic state, with a flower distribution that consist of 6 petals shape-like,
+whereas the upper and lower petals have the lower stress distribution from 46 to 93 MPa, and the
+four diagonal petals have stress in range of 140 until 211 MPa. This
 
 %% PEEQ
 \begin{figure}[H]

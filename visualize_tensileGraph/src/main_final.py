@@ -63,16 +63,16 @@ class TensileTestVisualization:
         })
 
         plt.figure(figsize=(12, 8))
-        line_formats = ['-', '-', '-', ':']  # '-o' is a solid line with circle markers
-        color_formats = ['r', 'r', 'r', 'm', 'c', 'y', 'k']
+        line_formats = ['o-', 'x-', '-', ':']  # '-o' is a solid line with circle markers
+        color_formats = ['r', 'g', 'r', 'm', 'c', 'y', 'k']
         for i, data in enumerate(self.datasets):
             fmt = line_formats[i % len(line_formats)]
             color = color_formats[i % len(color_formats)]
             plt.plot(data["strain"], data["stress"], fmt, label=data["label"], linewidth=1.5, color=color)
 
-        plt.title("Cyclic Amplitude for 20 second Loading")
-        plt.xlabel("Time (sec)")
-        plt.ylabel("Amplitude (Ratio of max amplitude)")
+        plt.title("True Stress-Strain Comparison of Different J2 Models")
+        plt.xlabel("Strain (mm/mm)")
+        plt.ylabel("Stress (MPa)")
 
         # The annotation code is intentionally disabled.
         # for i, data in enumerate(self.datasets):
@@ -107,10 +107,11 @@ def main():
     project_root = Path(__file__).resolve().parents[2]
 
     input_directory = project_root / "visualize_tensileGraph" / "resources"
-    output_plot_path = project_root / "visualize_tensileGraph" / "res" / "cyclic_amplitude.png"
+    output_plot_path = project_root / "visualize_tensileGraph" / "res" / "TrueStressStrain.png"
     
     file_names = {
-        "Cyclic Amplitude": "cyclic_amplitude.dat"
+        "J2-UMAT": "J2-UMAT.dat",
+        "J2-Abaqus": "J2-Abaqus.dat",
     }
 
     cross_section_mm2 = 1 
