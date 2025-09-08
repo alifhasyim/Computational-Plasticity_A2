@@ -1,87 +1,87 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.8)  6 SEP 2025 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  8 SEP 2025 16:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Nutzer/OneDrive/Documents/Master_RUB/04 - 01 Computational Plasticity/Assignment2/Computational-Plasticity_A2-2/main.tex"
-(c:/Users/Nutzer/OneDrive/Documents/Master_RUB/04 - 01 Computational Plasticity/Assignment2/Computational-Plasticity_A2-2/main.tex
-LaTeX2e <2025-06-01>
-L3 programming layer <2025-05-26>
-(C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+**"c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-7/main.tex"
+(c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-7/main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-04-29>
+(C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count275
-\c@section=\count276
-\c@subsection=\count277
-\c@subsubsection=\count278
-\c@paragraph=\count279
-\c@subparagraph=\count280
-\c@figure=\count281
-\c@table=\count282
+\c@part=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
+\c@figure=\count278
+\c@table=\count279
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen148
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+\bibindent=\dimen146
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen151
-\captionmargin=\dimen152
-\caption@leftmargin=\dimen153
-\caption@rightmargin=\dimen154
-\caption@width=\dimen155
-\caption@indent=\dimen156
-\caption@parindent=\dimen157
-\caption@hangindent=\dimen158
+\caption@tempdima=\dimen149
+\captionmargin=\dimen150
+\caption@leftmargin=\dimen151
+\caption@rightmargin=\dimen152
+\caption@width=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count283
-\c@continuedfloat=\count284
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2025/05/18 v2.17x AMS math features
+\c@caption@flags=\count280
+\c@continuedfloat=\count281
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2024/11/17 v2.01 AMS text
- (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen159
-)) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+\ex@=\dimen157
+)) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen160
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen158
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count285
+\inf@bad=\count282
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count286
-\leftroot@=\count287
+\uproot@=\count283
+\leftroot@=\count284
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count288
-\DOTSCASE@=\count289
+\classnum@=\count285
+\DOTSCASE@=\count286
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -91,117 +91,168 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen161
+\big@size=\dimen159
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count290
+\macc@depth=\count287
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count291
+\c@MaxMatrixCols=\count288
 \dotsspace@=\muskip17
-\c@parentequation=\count292
-\dspbrk@lvl=\count293
+\c@parentequation=\count289
+\dspbrk@lvl=\count290
 \tag@help=\toks19
-\row@=\count294
-\column@=\count295
-\maxfields@=\count296
+\row@=\count291
+\column@=\count292
+\maxfields@=\count293
 \andhelp@=\toks20
-\eqnshift@=\dimen162
-\alignsep@=\dimen163
-\tagshift@=\dimen164
-\tagwidth@=\dimen165
-\totwidth@=\dimen166
-\lineht@=\dimen167
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
 \@envbody=\toks21
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count297
-\Gm@cntv=\count298
-\c@Gm@tempcnt=\count299
-\Gm@bindingoffset=\dimen168
-\Gm@wd@mp=\dimen169
-\Gm@odd@mp=\dimen170
-\Gm@even@mp=\dimen171
-\Gm@layoutwidth=\dimen172
-\Gm@layoutheight=\dimen173
-\Gm@layouthoffset=\dimen174
-\Gm@layoutvoffset=\dimen175
+\Gm@cnth=\count294
+\Gm@cntv=\count295
+\c@Gm@tempcnt=\count296
+\Gm@bindingoffset=\dimen166
+\Gm@wd@mp=\dimen167
+\Gm@odd@mp=\dimen168
+\Gm@even@mp=\dimen169
+\Gm@layoutwidth=\dimen170
+\Gm@layoutheight=\dimen171
+\Gm@layouthoffset=\dimen172
+\Gm@layoutvoffset=\dimen173
 \Gm@dimlist=\toks23
- (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count300
+\c@float@type=\count297
 \float@exts=\toks24
 \float@box=\box55
 \@float@everytoks=\toks25
 \@floatcapt=\box56
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen176
-\lightrulewidth=\dimen177
-\cmidrulewidth=\dimen178
-\belowrulesep=\dimen179
-\belowbottomsep=\dimen180
-\aboverulesep=\dimen181
-\abovetopsep=\dimen182
-\cmidrulesep=\dimen183
-\cmidrulekern=\dimen184
-\defaultaddspace=\dimen185
-\@cmidla=\count301
-\@cmidlb=\count302
-\@aboverulesep=\dimen186
-\@belowrulesep=\dimen187
-\@thisruleclass=\count303
-\@lastruleclass=\count304
-\@thisrulewidth=\dimen188
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
-Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
+\heavyrulewidth=\dimen174
+\lightrulewidth=\dimen175
+\cmidrulewidth=\dimen176
+\belowrulesep=\dimen177
+\belowbottomsep=\dimen178
+\aboverulesep=\dimen179
+\abovetopsep=\dimen180
+\cmidrulesep=\dimen181
+\cmidrulekern=\dimen182
+\defaultaddspace=\dimen183
+\@cmidla=\count298
+\@cmidlb=\count299
+\@aboverulesep=\dimen184
+\@belowrulesep=\dimen185
+\@thisruleclass=\count300
+\@lastruleclass=\count301
+\@thisrulewidth=\dimen186
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTleft=\skip54
 \LTright=\skip55
 \LTpre=\skip56
 \LTpost=\skip57
-\LTchunksize=\count305
-\LTcapwidth=\dimen189
+\LTchunksize=\count302
+\LTcapwidth=\dimen187
 \LT@head=\box57
 \LT@firsthead=\box58
 \LT@foot=\box59
 \LT@lastfoot=\box60
 \LT@gbox=\box61
-\LT@cols=\count306
-\LT@rows=\count307
-\c@LT@tables=\count308
-\c@LT@chunks=\count309
+\LT@cols=\count303
+\LT@rows=\count304
+\c@LT@tables=\count305
+\c@LT@chunks=\count306
 \LT@p@ftn=\toks26
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box62
 \beforetitleunit=\skip58
 \aftertitleunit=\skip59
-\ttl@plus=\dimen190
-\ttl@minus=\dimen191
+\ttl@plus=\dimen188
+\ttl@minus=\dimen189
 \ttl@toksa=\toks27
-\titlewidth=\dimen192
-\titlewidthlast=\dimen193
-\titlewidthfirst=\dimen194
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+\titlewidth=\dimen190
+\titlewidthlast=\dimen191
+\titlewidthfirst=\dimen192
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count307
+\lst@gtempboxa=\box63
+\lst@token=\toks28
+\lst@length=\count308
+\lst@currlwidth=\dimen193
+\lst@column=\count309
+\lst@pos=\count310
+\lst@lostspace=\dimen194
+\lst@width=\dimen195
+\lst@newlines=\count311
+\lst@lineno=\count312
+\lst@maxwidth=\dimen196
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count313
+\lst@skipnumbers=\count314
+\lst@framebox=\box64
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\llabelsep=\skip60
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count310
+\l__color_backend_stack_int=\count315
 ) (main.aux
 
 LaTeX Warning: Label `fig:S22_Mesh1-4' multiply defined.
@@ -209,43 +260,44 @@ LaTeX Warning: Label `fig:S22_Mesh1-4' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
- (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count311
-\scratchdimen=\dimen195
-\scratchbox=\box63
-\nofMPsegments=\count312
-\nofMParguments=\count313
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count314
-\MPscratchDim=\dimen196
-\MPnumerator=\count315
-\makeMPintoPDFobject=\count316
-\everyMPtoPDFconversion=\toks29
-) (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+\scratchcounter=\count316
+\scratchdimen=\dimen197
+\scratchbox=\box65
+\nofMPsegments=\count317
+\nofMParguments=\count318
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen198
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
+\everyMPtoPDFconversion=\toks30
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
- (C:\Users\Nutzer\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+ (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
@@ -284,15 +336,17 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\c@lstlisting=\count322
+\c@llabel=\count323
 
 
 [1
 
-{C:/Users/Nutzer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 <images/GEO_Base.png, id=13, 377.7312pt x 320.6379pt>
 File: images/GEO_Base.png Graphic file (type png)
 <use images/GEO_Base.png>
-Package pdftex.def Info: images/GEO_Base.png  used on input line 82.
+Package pdftex.def Info: images/GEO_Base.png  used on input line 118.
 (pdftex.def)             Requested size: 281.85587pt x 239.25958pt.
 
 
@@ -302,7 +356,7 @@ Package pdftex.def Info: images/GEO_Base.png  used on input line 82.
 <images/MESH_Base.png, id=22, 471.2004pt x 360.8682pt>
 File: images/MESH_Base.png Graphic file (type png)
 <use images/MESH_Base.png>
-Package pdftex.def Info: images/MESH_Base.png  used on input line 154.
+Package pdftex.def Info: images/MESH_Base.png  used on input line 190.
 (pdftex.def)             Requested size: 399.29463pt x 305.80331pt.
 
 
@@ -312,312 +366,307 @@ Package pdftex.def Info: images/MESH_Base.png  used on input line 154.
 <images/Mesh1.png, id=31, 1205.50375pt x 852.18375pt>
 File: images/Mesh1.png Graphic file (type png)
 <use images/Mesh1.png>
-Package pdftex.def Info: images/Mesh1.png  used on input line 219.
-(pdftex.def)             Requested size: 164.41711pt x 116.22313pt.
+Package pdftex.def Info: images/Mesh1.png  used on input line 255.
+(pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh2.png, id=32, 1205.50375pt x 852.18375pt>
 File: images/Mesh2.png Graphic file (type png)
 <use images/Mesh2.png>
-Package pdftex.def Info: images/Mesh2.png  used on input line 224.
-(pdftex.def)             Requested size: 164.41711pt x 116.22313pt.
+Package pdftex.def Info: images/Mesh2.png  used on input line 260.
+(pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh3.png, id=33, 1205.50375pt x 852.18375pt>
 File: images/Mesh3.png Graphic file (type png)
 <use images/Mesh3.png>
-Package pdftex.def Info: images/Mesh3.png  used on input line 229.
-(pdftex.def)             Requested size: 164.41711pt x 116.22313pt.
+Package pdftex.def Info: images/Mesh3.png  used on input line 265.
+(pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh4.png, id=34, 1205.50375pt x 852.18375pt>
 File: images/Mesh4.png Graphic file (type png)
 <use images/Mesh4.png>
-Package pdftex.def Info: images/Mesh4.png  used on input line 234.
-(pdftex.def)             Requested size: 164.41711pt x 116.22313pt.
+Package pdftex.def Info: images/Mesh4.png  used on input line 270.
+(pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh5.png, id=35, 1205.50375pt x 852.18375pt>
 File: images/Mesh5.png Graphic file (type png)
 <use images/Mesh5.png>
-Package pdftex.def Info: images/Mesh5.png  used on input line 243.
-(pdftex.def)             Requested size: 164.41711pt x 116.22313pt.
+Package pdftex.def Info: images/Mesh5.png  used on input line 279.
+(pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh6.png, id=36, 1205.50375pt x 852.18375pt>
 File: images/Mesh6.png Graphic file (type png)
 <use images/Mesh6.png>
-Package pdftex.def Info: images/Mesh6.png  used on input line 248.
-(pdftex.def)             Requested size: 164.41711pt x 116.22313pt.
+Package pdftex.def Info: images/Mesh6.png  used on input line 284.
+(pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh7.png, id=37, 1205.50375pt x 852.18375pt>
 File: images/Mesh7.png Graphic file (type png)
 <use images/Mesh7.png>
-Package pdftex.def Info: images/Mesh7.png  used on input line 253.
-(pdftex.def)             Requested size: 164.41711pt x 116.22313pt.
+Package pdftex.def Info: images/Mesh7.png  used on input line 289.
+(pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh8.png, id=38, 1205.50375pt x 852.18375pt>
 File: images/Mesh8.png Graphic file (type png)
 <use images/Mesh8.png>
-Package pdftex.def Info: images/Mesh8.png  used on input line 258.
-(pdftex.def)             Requested size: 164.41711pt x 116.22313pt.
+Package pdftex.def Info: images/Mesh8.png  used on input line 294.
+(pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 
 
-[6 <./images/Mesh1.png (PNG copy)> <./images/Mesh2.png> <./images/Mesh3.png> <./images/Mesh4.png> <./images/Mesh5.png> <./images/Mesh6.png> <./images/Mesh7.png> <./images/Mesh8.png>]
-<images/S22_Mesh1.png, id=49, 1569.865pt x 1083.04625pt>
+[6 <./images/Mesh1.png (PNG copy)> <./images/Mesh2.png> <./images/Mesh3.png> <./images/Mesh4.png>]
+
+[7 <./images/Mesh5.png> <./images/Mesh6.png> <./images/Mesh7.png> <./images/Mesh8.png>]
+<images/S22_Mesh1.png, id=53, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh1.png Graphic file (type png)
 <use images/S22_Mesh1.png>
-Package pdftex.def Info: images/S22_Mesh1.png  used on input line 274.
+Package pdftex.def Info: images/S22_Mesh1.png  used on input line 310.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
-<images/S22_Mesh2.png, id=50, 1569.865pt x 1083.04625pt>
+<images/S22_Mesh2.png, id=54, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh2.png Graphic file (type png)
 <use images/S22_Mesh2.png>
-Package pdftex.def Info: images/S22_Mesh2.png  used on input line 280.
+Package pdftex.def Info: images/S22_Mesh2.png  used on input line 316.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
-<images/S22_Mesh3.png, id=51, 1569.865pt x 1083.04625pt>
+<images/S22_Mesh3.png, id=55, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh3.png Graphic file (type png)
 <use images/S22_Mesh3.png>
-Package pdftex.def Info: images/S22_Mesh3.png  used on input line 286.
+Package pdftex.def Info: images/S22_Mesh3.png  used on input line 322.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
-<images/S22_Mesh4.png, id=52, 1569.865pt x 1083.04625pt>
+<images/S22_Mesh4.png, id=56, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh4.png Graphic file (type png)
 <use images/S22_Mesh4.png>
-Package pdftex.def Info: images/S22_Mesh4.png  used on input line 292.
+Package pdftex.def Info: images/S22_Mesh4.png  used on input line 328.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
-<images/S22_Mesh5.png, id=53, 1569.865pt x 1083.04625pt>
+<images/S22_Mesh5.png, id=57, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh5.png Graphic file (type png)
 <use images/S22_Mesh5.png>
-Package pdftex.def Info: images/S22_Mesh5.png  used on input line 313.
+Package pdftex.def Info: images/S22_Mesh5.png  used on input line 349.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
-<images/S22_Mesh6.png, id=54, 1569.865pt x 1083.04625pt>
+<images/S22_Mesh6.png, id=58, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh6.png Graphic file (type png)
 <use images/S22_Mesh6.png>
-Package pdftex.def Info: images/S22_Mesh6.png  used on input line 318.
+Package pdftex.def Info: images/S22_Mesh6.png  used on input line 354.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
-<images/S22_Mesh7.png, id=55, 1569.865pt x 1083.04625pt>
+<images/S22_Mesh7.png, id=59, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh7.png Graphic file (type png)
 <use images/S22_Mesh7.png>
-Package pdftex.def Info: images/S22_Mesh7.png  used on input line 323.
+Package pdftex.def Info: images/S22_Mesh7.png  used on input line 359.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
-<images/S22_Mesh8.png, id=56, 1569.865pt x 1083.04625pt>
+<images/S22_Mesh8.png, id=60, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh8.png Graphic file (type png)
 <use images/S22_Mesh8.png>
-Package pdftex.def Info: images/S22_Mesh8.png  used on input line 328.
+Package pdftex.def Info: images/S22_Mesh8.png  used on input line 364.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
 
 
-[7 <./images/S22_Mesh1.png> <./images/S22_Mesh2.png> <./images/S22_Mesh3.png> <./images/S22_Mesh4.png>]
+[8 <./images/S22_Mesh1.png> <./images/S22_Mesh2.png> <./images/S22_Mesh3.png> <./images/S22_Mesh4.png>]
 
-[8 <./images/S22_Mesh5.png> <./images/S22_Mesh6.png> <./images/S22_Mesh7.png> <./images/S22_Mesh8.png>]
-<images/StressConc.png, id=73, 512.1534pt x 307.3884pt>
+[9 <./images/S22_Mesh5.png> <./images/S22_Mesh6.png> <./images/S22_Mesh7.png> <./images/S22_Mesh8.png>]
+<images/StressConc.png, id=76, 512.1534pt x 307.3884pt>
 File: images/StressConc.png Graphic file (type png)
 <use images/StressConc.png>
-Package pdftex.def Info: images/StressConc.png  used on input line 351.
+Package pdftex.def Info: images/StressConc.png  used on input line 387.
 (pdftex.def)             Requested size: 422.77664pt x 253.75801pt.
-<images/Kt.png, id=74, 512.1534pt x 319.9152pt>
+<images/Kt.png, id=77, 512.1534pt x 319.9152pt>
 File: images/Kt.png Graphic file (type png)
 <use images/Kt.png>
-Package pdftex.def Info: images/Kt.png  used on input line 379.
+Package pdftex.def Info: images/Kt.png  used on input line 415.
 (pdftex.def)             Requested size: 422.77664pt x 264.09926pt.
 
 
-[9 <./images/StressConc.png>]
+[10 <./images/StressConc.png>]
 
-[10 <./images/Kt.png>]
-<images/half_mesh.png, id=83, 468.75125pt x 852.18375pt>
-File: images/half_mesh.png Graphic file (type png)
-<use images/half_mesh.png>
-Package pdftex.def Info: images/half_mesh.png  used on input line 414.
-(pdftex.def)             Requested size: 225.4804pt x 409.91476pt.
-<images/half.png, id=84, 132.2541pt x 298.2342pt>
-File: images/half.png Graphic file (type png)
-<use images/half.png>
-Package pdftex.def Info: images/half.png  used on input line 420.
-(pdftex.def)             Requested size: 187.89914pt x 423.72307pt.
-
-
-[11 <./images/half_mesh.png> <./images/half.png>]
-File: images/S22_Mesh4.png Graphic file (type png)
-<use images/S22_Mesh4.png>
-Package pdftex.def Info: images/S22_Mesh4.png  used on input line 446.
-(pdftex.def)             Requested size: 253.66455pt x 174.9931pt.
-<images/S22_Mesh4_half.png, id=90, 1255.69125pt x 1083.04625pt>
-File: images/S22_Mesh4_half.png Graphic file (type png)
-<use images/S22_Mesh4_half.png>
-Package pdftex.def Info: images/S22_Mesh4_half.png  used on input line 452.
-(pdftex.def)             Requested size: 206.69334pt x 178.26524pt.
+[11 <./images/Kt.png>]
+<images/quad_mesh.png, id=86, 1183.42125pt x 1199.48125pt>
+File: images/quad_mesh.png Graphic file (type png)
+<use images/quad_mesh.png>
+Package pdftex.def Info: images/quad_mesh.png  used on input line 452.
+(pdftex.def)             Requested size: 225.4804pt x 228.5261pt.
+<images/quad.png, id=87, 229.0959pt x 319.4334pt>
+File: images/quad.png Graphic file (type png)
+<use images/quad.png>
+Package pdftex.def Info: images/quad.png  used on input line 458.
+(pdftex.def)             Requested size: 187.89914pt x 261.99068pt.
+File: images/S22_Mesh3.png Graphic file (type png)
+<use images/S22_Mesh3.png>
+Package pdftex.def Info: images/S22_Mesh3.png  used on input line 486.
+(pdftex.def)             Requested size: 230.18253pt x 158.7977pt.
+<images/S22_Mesh3_Quad.png, id=88, 1660.2025pt x 1199.48125pt>
+File: images/S22_Mesh3_Quad.png Graphic file (type png)
+<use images/S22_Mesh3_Quad.png>
+Package pdftex.def Info: images/S22_Mesh3_Quad.png  used on input line 492.
+(pdftex.def)             Requested size: 230.18253pt x 166.2973pt.
 
 
-[12 <./images/S22_Mesh4_half.png>]
-<visualize_tensileGraph/res/cyclic_amplitude.png, id=95, 867.24pt x 578.16pt>
+[12 <./images/quad_mesh.png> <./images/quad.png>]
+
+[13 <./images/S22_Mesh3_Quad.png>]
+<visualize_tensileGraph/res/cyclic_amplitude.png, id=99, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/cyclic_amplitude.png Graphic file (type png)
 <use visualize_tensileGraph/res/cyclic_amplitude.png>
-Package pdftex.def Info: visualize_tensileGraph/res/cyclic_amplitude.png  used on input line 473.
+Package pdftex.def Info: visualize_tensileGraph/res/cyclic_amplitude.png  used on input line 514.
 (pdftex.def)             Requested size: 328.82707pt x 219.21786pt.
 
 
-[13 <./visualize_tensileGraph/res/cyclic_amplitude.png>]
-<visualize_tensileGraph/res/Iso_Hard.png, id=101, 867.24pt x 578.16pt>
+[14 <./visualize_tensileGraph/res/cyclic_amplitude.png>]
+<visualize_tensileGraph/res/Iso_Hard.png, id=104, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/Iso_Hard.png Graphic file (type png)
 <use visualize_tensileGraph/res/Iso_Hard.png>
-Package pdftex.def Info: visualize_tensileGraph/res/Iso_Hard.png  used on input line 486.
+Package pdftex.def Info: visualize_tensileGraph/res/Iso_Hard.png  used on input line 527.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
 
 
-[14 <./visualize_tensileGraph/res/Iso_Hard.png>]
-<visualize_tensileGraph/res/Kin_Hard.png, id=107, 867.24pt x 578.16pt>
+[15 <./visualize_tensileGraph/res/Iso_Hard.png>]
+<visualize_tensileGraph/res/Kin_Hard.png, id=110, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/Kin_Hard.png Graphic file (type png)
 <use visualize_tensileGraph/res/Kin_Hard.png>
-Package pdftex.def Info: visualize_tensileGraph/res/Kin_Hard.png  used on input line 514.
+Package pdftex.def Info: visualize_tensileGraph/res/Kin_Hard.png  used on input line 555.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
 
 
-[15 <./visualize_tensileGraph/res/Kin_Hard.png>]
-<visualize_tensileGraph/res/Iso_Kinem_Comparison.png, id=112, 867.24pt x 578.16pt>
+[16 <./visualize_tensileGraph/res/Kin_Hard.png>]
+<visualize_tensileGraph/res/Iso_Kinem_Comparison.png, id=115, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/Iso_Kinem_Comparison.png Graphic file (type png)
 <use visualize_tensileGraph/res/Iso_Kinem_Comparison.png>
-Package pdftex.def Info: visualize_tensileGraph/res/Iso_Kinem_Comparison.png  used on input line 538.
+Package pdftex.def Info: visualize_tensileGraph/res/Iso_Kinem_Comparison.png  used on input line 579.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
 
 
-[16 <./visualize_tensileGraph/res/Iso_Kinem_Comparison.png>]
-<visualize_tensileGraph/res/Com_Hard.png, id=117, 867.24pt x 578.16pt>
+[17 <./visualize_tensileGraph/res/Iso_Kinem_Comparison.png>]
+<visualize_tensileGraph/res/Com_Hard.png, id=120, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/Com_Hard.png Graphic file (type png)
 <use visualize_tensileGraph/res/Com_Hard.png>
-Package pdftex.def Info: visualize_tensileGraph/res/Com_Hard.png  used on input line 569.
+Package pdftex.def Info: visualize_tensileGraph/res/Com_Hard.png  used on input line 610.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
-<visualize_tensileGraph/res/Hardening_Graph.png, id=118, 867.24pt x 578.16pt>
+<visualize_tensileGraph/res/Hardening_Graph.png, id=121, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/Hardening_Graph.png Graphic file (type png)
 <use visualize_tensileGraph/res/Hardening_Graph.png>
-Package pdftex.def Info: visualize_tensileGraph/res/Hardening_Graph.png  used on input line 595.
+Package pdftex.def Info: visualize_tensileGraph/res/Hardening_Graph.png  used on input line 636.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
 
 
-[17 <./visualize_tensileGraph/res/Com_Hard.png>]
+[18 <./visualize_tensileGraph/res/Com_Hard.png>]
 
-[18 <./visualize_tensileGraph/res/Hardening_Graph.png>]
-<images/Q3-PlaneStrain.png, id=127, 429.605pt x 123.96312pt>
-File: images/Q3-PlaneStrain.png Graphic file (type png)
-<use images/Q3-PlaneStrain.png>
-Package pdftex.def Info: images/Q3-PlaneStrain.png  used on input line 618.
-(pdftex.def)             Requested size: 469.75502pt x 135.55028pt.
-<images/Q3-ElasticStiffness.png, id=128, 682.55pt x 150.5625pt>
-File: images/Q3-ElasticStiffness.png Graphic file (type png)
-<use images/Q3-ElasticStiffness.png>
-Package pdftex.def Info: images/Q3-ElasticStiffness.png  used on input line 625.
-(pdftex.def)             Requested size: 469.75502pt x 103.62402pt.
-<images/Q3-VonMises.png, id=129, 947.54pt x 112.92188pt>
-File: images/Q3-VonMises.png Graphic file (type png)
-<use images/Q3-VonMises.png>
-Package pdftex.def Info: images/Q3-VonMises.png  used on input line 632.
-(pdftex.def)             Requested size: 469.75502pt x 55.98178pt.
+[19 <./visualize_tensileGraph/res/Hardening_Graph.png>] (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (C:\Users\Bagus Alifah Hasyim\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+
+Package Listings Warning: Text dropped after begin of listing on input line 665.
 
 
-[19 <./images/Q3-PlaneStrain.png> <./images/Q3-ElasticStiffness.png> <./images/Q3-VonMises.png>]
-<visualize_tensileGraph/res/TrueStressStrain.png, id=137, 867.24pt x 578.16pt>
+Package Listings Warning: Text dropped after begin of listing on input line 689.
+
+
+Package Listings Warning: Text dropped after begin of listing on input line 712.
+
+
+
+[20]
+
+[21]
+<visualize_tensileGraph/res/TrueStressStrain.png, id=138, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/TrueStressStrain.png Graphic file (type png)
 <use visualize_tensileGraph/res/TrueStressStrain.png>
-Package pdftex.def Info: visualize_tensileGraph/res/TrueStressStrain.png  used on input line 664.
+Package pdftex.def Info: visualize_tensileGraph/res/TrueStressStrain.png  used on input line 754.
 (pdftex.def)             Requested size: 422.77664pt x 281.85406pt.
 
 
-[20 <./visualize_tensileGraph/res/TrueStressStrain.png>]
-<images/Q3-3/MISES_1.png, id=142, 1283.79625pt x 902.37125pt>
+[22 <./visualize_tensileGraph/res/TrueStressStrain.png>]
+<images/Q3-3/MISES_1.png, id=143, 1283.79625pt x 902.37125pt>
 File: images/Q3-3/MISES_1.png Graphic file (type png)
 <use images/Q3-3/MISES_1.png>
-Package pdftex.def Info: images/Q3-3/MISES_1.png  used on input line 687.
+Package pdftex.def Info: images/Q3-3/MISES_1.png  used on input line 781.
 (pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
-<images/Q3-3/MISES_2.png, id=143, 1283.79625pt x 902.37125pt>
+<images/Q3-3/MISES_2.png, id=144, 1283.79625pt x 902.37125pt>
 File: images/Q3-3/MISES_2.png Graphic file (type png)
 <use images/Q3-3/MISES_2.png>
-Package pdftex.def Info: images/Q3-3/MISES_2.png  used on input line 693.
+Package pdftex.def Info: images/Q3-3/MISES_2.png  used on input line 787.
 (pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
-<images/Q3-3/MISES_3.png, id=144, 1283.79625pt x 902.37125pt>
+<images/Q3-3/MISES_3.png, id=145, 1283.79625pt x 902.37125pt>
 File: images/Q3-3/MISES_3.png Graphic file (type png)
 <use images/Q3-3/MISES_3.png>
-Package pdftex.def Info: images/Q3-3/MISES_3.png  used on input line 700.
+Package pdftex.def Info: images/Q3-3/MISES_3.png  used on input line 794.
 (pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
-<images/Q3-3/MISES_4.png, id=145, 1283.79625pt x 902.37125pt>
+<images/Q3-3/MISES_4.png, id=146, 1283.79625pt x 902.37125pt>
 File: images/Q3-3/MISES_4.png Graphic file (type png)
 <use images/Q3-3/MISES_4.png>
-Package pdftex.def Info: images/Q3-3/MISES_4.png  used on input line 705.
+Package pdftex.def Info: images/Q3-3/MISES_4.png  used on input line 799.
 (pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
-<images/Q3-3/PEEQ_1.png, id=146, 1283.79625pt x 902.37125pt>
+
+
+[23 <./images/Q3-3/MISES_1.png> <./images/Q3-3/MISES_2.png> <./images/Q3-3/MISES_3.png> <./images/Q3-3/MISES_4.png>]
+<images/Q3-3/PEEQ_1.png, id=154, 1283.79625pt x 902.37125pt>
 File: images/Q3-3/PEEQ_1.png Graphic file (type png)
 <use images/Q3-3/PEEQ_1.png>
-Package pdftex.def Info: images/Q3-3/PEEQ_1.png  used on input line 730.
+Package pdftex.def Info: images/Q3-3/PEEQ_1.png  used on input line 833.
 (pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
-<images/Q3-3/PEEQ_2.png, id=147, 1283.79625pt x 902.37125pt>
+<images/Q3-3/PEEQ_2.png, id=155, 1283.79625pt x 902.37125pt>
 File: images/Q3-3/PEEQ_2.png Graphic file (type png)
 <use images/Q3-3/PEEQ_2.png>
-Package pdftex.def Info: images/Q3-3/PEEQ_2.png  used on input line 736.
+Package pdftex.def Info: images/Q3-3/PEEQ_2.png  used on input line 839.
 (pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
-<images/Q3-3/PEEQ_3.png, id=148, 1283.79625pt x 902.37125pt>
+<images/Q3-3/PEEQ_3.png, id=156, 1283.79625pt x 902.37125pt>
 File: images/Q3-3/PEEQ_3.png Graphic file (type png)
 <use images/Q3-3/PEEQ_3.png>
-Package pdftex.def Info: images/Q3-3/PEEQ_3.png  used on input line 742.
+Package pdftex.def Info: images/Q3-3/PEEQ_3.png  used on input line 845.
 (pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
-<images/Q3-3/PEEQ_4.png, id=149, 1283.79625pt x 902.37125pt>
+<images/Q3-3/PEEQ_4.png, id=157, 1283.79625pt x 902.37125pt>
 File: images/Q3-3/PEEQ_4.png Graphic file (type png)
 <use images/Q3-3/PEEQ_4.png>
-Package pdftex.def Info: images/Q3-3/PEEQ_4.png  used on input line 747.
+Package pdftex.def Info: images/Q3-3/PEEQ_4.png  used on input line 850.
 (pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
 
 
-[21 <./images/Q3-3/MISES_1.png> <./images/Q3-3/MISES_2.png> <./images/Q3-3/MISES_3.png> <./images/Q3-3/MISES_4.png>]
-<images/Q3-4/SDV1.png, id=157, 1283.79625pt x 902.37125pt>
+[24 <./images/Q3-3/PEEQ_1.png> <./images/Q3-3/PEEQ_2.png> <./images/Q3-3/PEEQ_3.png> <./images/Q3-3/PEEQ_4.png>]
+<images/Q3-4/SDV1.png, id=165, 1283.79625pt x 902.37125pt>
 File: images/Q3-4/SDV1.png Graphic file (type png)
 <use images/Q3-4/SDV1.png>
-Package pdftex.def Info: images/Q3-4/SDV1.png  used on input line 760.
-(pdftex.def)             Requested size: 328.82707pt x 231.12741pt.
-
-
-[22 <./images/Q3-3/PEEQ_1.png> <./images/Q3-3/PEEQ_2.png> <./images/Q3-3/PEEQ_3.png> <./images/Q3-3/PEEQ_4.png>]
-<images/Q3-4/SDV2.png, id=165, 1283.79625pt x 902.37125pt>
+Package pdftex.def Info: images/Q3-4/SDV1.png  used on input line 866.
+(pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
+<images/Q3-4/SDV2.png, id=166, 1283.79625pt x 902.37125pt>
 File: images/Q3-4/SDV2.png Graphic file (type png)
 <use images/Q3-4/SDV2.png>
-Package pdftex.def Info: images/Q3-4/SDV2.png  used on input line 766.
-(pdftex.def)             Requested size: 328.82707pt x 231.12741pt.
-<images/Q3-4/SDV3.png, id=166, 1283.79625pt x 902.37125pt>
+Package pdftex.def Info: images/Q3-4/SDV2.png  used on input line 871.
+(pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
+<images/Q3-4/SDV3.png, id=167, 1283.79625pt x 902.37125pt>
 File: images/Q3-4/SDV3.png Graphic file (type png)
 <use images/Q3-4/SDV3.png>
-Package pdftex.def Info: images/Q3-4/SDV3.png  used on input line 772.
-(pdftex.def)             Requested size: 328.82707pt x 231.12741pt.
-
-
-[23 <./images/Q3-4/SDV1.png> <./images/Q3-4/SDV2.png>]
-<images/Q3-4/SDV4.png, id=172, 1283.79625pt x 902.37125pt>
+Package pdftex.def Info: images/Q3-4/SDV3.png  used on input line 882.
+(pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
+<images/Q3-4/SDV4.png, id=168, 1283.79625pt x 902.37125pt>
 File: images/Q3-4/SDV4.png Graphic file (type png)
 <use images/Q3-4/SDV4.png>
-Package pdftex.def Info: images/Q3-4/SDV4.png  used on input line 778.
-(pdftex.def)             Requested size: 328.82707pt x 231.12741pt.
-<images/Q3-4/SDV5.png, id=173, 1283.79625pt x 902.37125pt>
+Package pdftex.def Info: images/Q3-4/SDV4.png  used on input line 887.
+(pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
+<images/Q3-4/SDV5.png, id=169, 1283.79625pt x 902.37125pt>
 File: images/Q3-4/SDV5.png Graphic file (type png)
 <use images/Q3-4/SDV5.png>
-Package pdftex.def Info: images/Q3-4/SDV5.png  used on input line 784.
-(pdftex.def)             Requested size: 328.82707pt x 231.12741pt.
-
-
-[24 <./images/Q3-4/SDV3.png> <./images/Q3-4/SDV4.png>]
-<images/Q3-4/SDV6.png, id=179, 1283.79625pt x 902.37125pt>
+Package pdftex.def Info: images/Q3-4/SDV5.png  used on input line 898.
+(pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
+<images/Q3-4/SDV6.png, id=170, 1283.79625pt x 902.37125pt>
 File: images/Q3-4/SDV6.png Graphic file (type png)
 <use images/Q3-4/SDV6.png>
-Package pdftex.def Info: images/Q3-4/SDV6.png  used on input line 790.
-(pdftex.def)             Requested size: 328.82707pt x 231.12741pt.
-<images/Q3-4/SDV7.png, id=180, 1283.79625pt x 902.37125pt>
+Package pdftex.def Info: images/Q3-4/SDV6.png  used on input line 903.
+(pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
+
+
+[25 <./images/Q3-4/SDV1.png> <./images/Q3-4/SDV2.png> <./images/Q3-4/SDV3.png> <./images/Q3-4/SDV4.png>]
+<images/Q3-4/SDV7.png, id=179, 1283.79625pt x 902.37125pt>
 File: images/Q3-4/SDV7.png Graphic file (type png)
 <use images/Q3-4/SDV7.png>
-Package pdftex.def Info: images/Q3-4/SDV7.png  used on input line 796.
-(pdftex.def)             Requested size: 328.82707pt x 231.12741pt.
-
-
-[25 <./images/Q3-4/SDV5.png> <./images/Q3-4/SDV6.png>]
-<images/Q3-4/SDV8.png, id=187, 1283.79625pt x 902.37125pt>
+Package pdftex.def Info: images/Q3-4/SDV7.png  used on input line 914.
+(pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
+<images/Q3-4/SDV8.png, id=180, 1283.79625pt x 902.37125pt>
 File: images/Q3-4/SDV8.png Graphic file (type png)
 <use images/Q3-4/SDV8.png>
-Package pdftex.def Info: images/Q3-4/SDV8.png  used on input line 802.
-(pdftex.def)             Requested size: 328.82707pt x 231.12741pt.
-<images/Q3-4/SDV9.png, id=188, 1283.79625pt x 902.37125pt>
+Package pdftex.def Info: images/Q3-4/SDV8.png  used on input line 919.
+(pdftex.def)             Requested size: 225.4804pt x 158.48186pt.
+<images/Q3-4/SDV9.png, id=181, 1283.79625pt x 902.37125pt>
 File: images/Q3-4/SDV9.png Graphic file (type png)
 <use images/Q3-4/SDV9.png>
-Package pdftex.def Info: images/Q3-4/SDV9.png  used on input line 808.
+Package pdftex.def Info: images/Q3-4/SDV9.png  used on input line 928.
 (pdftex.def)             Requested size: 328.82707pt x 231.12741pt.
 
 
-[26 <./images/Q3-4/SDV7.png> <./images/Q3-4/SDV8.png>]
+[26 <./images/Q3-4/SDV5.png> <./images/Q3-4/SDV6.png> <./images/Q3-4/SDV7.png> <./images/Q3-4/SDV8.png>]
 
 [27 <./images/Q3-4/SDV9.png>] (main.aux)
  ***********
-LaTeX2e <2025-06-01>
-L3 programming layer <2025-05-26>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-04-29>
  ***********
 
 
@@ -625,17 +674,17 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4975 strings out of 468225
- 88190 string characters out of 5432490
- 483715 words of memory out of 5000000
- 33471 multiletter control sequences out of 15000+600000
- 634461 words of font info for 66 fonts, out of 8000000 for 9000
+ 7479 strings out of 469923
+ 123313 string characters out of 5462358
+ 717552 words of memory out of 5000000
+ 34238 multiletter control sequences out of 15000+600000
+ 635497 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,65p,864b,417s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Nutzer\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Nutzer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nutzer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Nutzer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nutzer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Nutzer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Nutzer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nutzer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Nutzer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nutzer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nutzer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (27 pages, 3859027 bytes).
+ 57i,10n,65p,887b,1447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (27 pages, 3856462 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
+ 245 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 251 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

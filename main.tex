@@ -9,9 +9,45 @@
 \usepackage{setspace} % for spacing control
 \usepackage{indentfirst}
 \usepackage{titlesec}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{pifont}
 \setstretch{1.0}       % single line spacing (default)
 \setlength{\parskip}{0pt}   % no space between paragraphs
 \setlength{\parindent}{0em} % set indentation amount
+
+\makeatletter
+
+\AtBeginDocument{%
+  % Counter `lstlisting' is not defined before `\begin{document}'
+  \newcounter{llabel}[lstlisting]%
+  \renewcommand*{\thellabel}{%
+    \ifnum\value{llabel}<0 %
+      \@ctrerr
+    \else
+      \ifnum\value{llabel}>10 %
+        \@ctrerr
+      \else
+        \protect\ding{\the\numexpr\value{llabel}+201\relax}%
+      \fi
+    \fi
+  }%
+}
+\newlength{\llabelsep}
+\setlength{\llabelsep}{5pt}
+
+\newcommand*{\llabel}[1]{%
+  \begingroup
+    \refstepcounter{llabel}%
+    \label{#1}%
+    \llap{%
+      \thellabel\kern\llabelsep
+      \hphantom{\lst@numberstyle\the\lst@lineno}%
+      \kern\lst@numbersep
+    }%
+  \endgroup
+}
+\makeatother
 
 \geometry{margin=1in}
 \setlength{\parskip}{0em}
@@ -214,22 +250,22 @@ Abaqus software (not a screenshot of the interface).}
 \vspace{1em}
 \begin{figure}[H]
     \centering
-    \begin{minipage}{0.35\textwidth}
+    \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/Mesh1.png}
         \caption*{Mesh 1: 116 elements.}
     \end{minipage}
-    \begin{minipage}{0.35\textwidth}
+    \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/Mesh2.png}
         \caption*{Mesh 2: 180 elements.}
     \end{minipage}
-    \begin{minipage}{0.35\textwidth}
+    \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/Mesh3.png}
         \caption*{Mesh 3: 352 elements.}
     \end{minipage}
-    \begin{minipage}{0.35\textwidth}
+    \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/Mesh4.png}
         \caption*{Mesh 4: 676 elements.}
@@ -238,29 +274,29 @@ Abaqus software (not a screenshot of the interface).}
 
 \begin{figure}[H]
     \centering
-    \begin{minipage}{0.35\textwidth}
+    \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/Mesh5.png}
         \caption*{Mesh 5: 1552 elements.}
     \end{minipage}
-    \begin{minipage}{0.35\textwidth}
+    \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/Mesh6.png}
         \caption*{Mesh 6: 4948 elements.}
     \end{minipage}
-    \begin{minipage}{0.35\textwidth}
+    \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/Mesh7.png}
         \caption*{Mesh 7: 16424 elements.}
     \end{minipage}
-    \begin{minipage}{0.35\textwidth}
+    \begin{minipage}{0.48\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/Mesh8.png}
         \caption*{Mesh 8: 97042 elements.}
     \end{minipage}
 \end{figure}
 
-
+\newpage
 \vspace{1em}
 \textit{$\dots$ For each mesh size, provide a contour plot of the relevant stress component, 
 with indicating the locations of both maximum and minimum stress values on the plot. 
@@ -387,15 +423,17 @@ stress gradients more accurately, resulting in a more continuous stress curves a
 \end{figure}
 
 \vspace{1em}
-\hspace{2em}Based on these results, mesh number 4 is chosen as the most optimal 
-mesh sizing configuration. As we refer to the classical value of $K_t$, which is 3.0 for plate structures, 
-we can see that mesh 4 provides a $K_t$ value that is in close agreement with this classical solution. 
+\hspace{2em}Based on these results, mesh number 3 is chosen as the most optimal 
+mesh sizing configuration. As we refer to the classical value of $K_t$, which is $K_t\approx 2.72$ for plate structures with ratio
+of 0.1 based on Figure 7
+in the appendix of the assignment 2, 
+as we see that mesh 3 provides a $K_t$ value that is in close agreement with this classical solution. 
 This indicates that the mesh is sufficiently refined to capture the stress concentration effects 
 accurately without being overly computationally expensive. It is possible that to use 
-more refined mesh than mesh 8, since the curve is about to converge to value of 3.0. 
+more refined mesh than mesh 8, since the curve is about to converge to value of 2.72. 
 However, the computational cost will become significantly higher, 
 while the improvement in accuracy will not be substantial. Therefore, 
-mesh 4 is selected as the optimal mesh for this analysis, balancing accuracy and efficiency.   
+mesh 3 is selected as the optimal mesh for this analysis, balancing accuracy and efficiency.   
 
 
 \newpage
@@ -411,50 +449,53 @@ Compare it to the original model.}
     \hspace{-0.05\textwidth} % Move the image to the right
     \begin{minipage}{0.48\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{images/half_mesh.png}
+        \includegraphics[width=\textwidth]{images/quad_mesh.png}
         \vspace{-2.6em} % Adjust this value to move the image down
     \end{minipage}
     \hspace{0.1\textwidth} % Move the image to the right
     \begin{minipage}{0.4\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{images/half.png}
+        \includegraphics[width=\textwidth]{images/quad.png}
     \end{minipage}
-    \caption{(Left) Mesh of the proposed half-symmetry model. (Right) boundary conditions configuration applied to the
+    \caption{(Left) Mesh of the proposed quad-symmetry model. (Right) boundary conditions configuration applied to the
     half model. Additional boundary condition is applied to the symmetry line, which
     here restrict the horizontal movement while allowing y-axis movement. The restriction on the right bottom
     corner is omitted since it is already restricted by the symmetry line for the horizontal movement. The nominal stress
     is applied on the top line as in the full model, as well for the fixed support on the bottom that allows 
     horizontal movement. }
-    \label{fig:HalfModel}
+    \label{fig:QuadModel}
 \end{figure}
 \vspace{1em}
-\hspace{2em}The symmetry is modeled as in figure~\ref{fig:HalfModel}, 
+\hspace{2em}The symmetry is modeled as in figure~\ref{fig:QuadModel}, 
 where the mesh is created using the same mesh size as in Mesh 4 variation. Modification
-of boundary condition is done as in figure~\ref{fig:HalfModel} so that the symmetry model
+of boundary condition is done as in figure~\ref{fig:QuadModel} so that the symmetry model
 can represent the full model. After running the simulation, the stress contour plot 
-is shown in figure~\ref{fig:HalfModel_StressContour}. It can be seen that the stress
-distribution for the symmetry model is identical with the full model. The value of 
-maximum stress and minimum stress is also the same for both cases. Hence by utilizing
+is shown in figure~\ref{fig:QuadModel_StressContour}. It can be seen that the stress
+distribution for the symmetry model is almost identical with the full model. The value of 
+maximum stress and minimum stress is also the same for both cases. There are some slightly
+deviation in both maximum and minimum $S_{22}$ stress values. Hence by utilizing
 symmetry, the computational cost and simulation time can be significantly reduced by calculating
 fewer areas which represent the full model. 
 \vspace{1em}
 
 \begin{figure}[H]
     \centering
-    \begin{minipage}{0.54\textwidth}
+    \begin{minipage}{0.49\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{images/S22_Mesh4.png}
+        \hspace{-0.05\textwidth} % Move the image to the right
+        \includegraphics[width=\textwidth]{images/S22_Mesh3.png}
         \caption*{Full model}
     \end{minipage}
     \hfill
-    \begin{minipage}{0.44\textwidth}
+    \begin{minipage}{0.49\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{images/S22_Mesh4_half.png}
-        \caption*{Half-symmetry model}
+        \includegraphics[width=\textwidth]{images/S22_Mesh3_Quad.png}
+        \caption*{Quad-symmetry model}
     \end{minipage}
-    \caption{Comparison of $S_{22}$ stress contours for Mesh 4: full model (left) and half-symmetry model (right). 
-    Both plots show the stress distribution and concentration near the hole, demonstrating that the half-symmetry model accurately reproduces the results of the full model.}
-    \label{fig:HalfModel_StressContour}
+    \caption{Comparison of $S_{22}$ stress contours for Mesh 3: full model (left) and quad-symmetry model (right). 
+    Both plots show the stress distribution and concentration near the hole, demonstrating that the quad-symmetry model accurately reproduces the results of the full model, with slighly
+    deviation on the values.}
+    \label{fig:QuadModel_StressContour}
 \end{figure}
 
 \newpage
@@ -613,35 +654,82 @@ shown in figure~\ref{fig:Hardening_Comparison}.
 a screenshot that shows the code lines where this choice is made and where elastic stiffness
 and equivalent von mises stress is calculated, and give an explanation based on the lecture.}
 \vspace{1em}
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{images/Q3-PlaneStrain.png}
-    \caption{Code section in the UMAT where the plane strain or plane stress condition is selected. This determines the appropriate constitutive behavior for the simulation.}
-    \label{fig:Q3-PlaneStrain}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{images/Q3-ElasticStiffness.png}
-    \caption{Code lines in the UMAT where the elastic stiffness matrix is calculated. This matrix defines the linear elastic response of the material.}
-    \label{fig:Q3-ElasticStiffness}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{images/Q3-VonMises.png}
-    \caption{Code section in the UMAT where the equivalent von Mises stress is computed. This value is used to evaluate yielding according to the J2 plasticity criterion.}
-    \label{fig:Q3-VonMises}
-\end{figure}
-
-\hspace{2em}Figure~\ref{fig:Q3-PlaneStrain} shows the code section of the UMAT subroutine file
+\begin{lstlisting}[
+  language=Fortran,
+  numbers=left,
+  numberstyle=\small\itshape,
+  stepnumber=1,
+  frame=lines,
+  backgroundcolor=\color{blue!25},
+  mathescape,
+]$\llabel{header}$
+C ----------------------------------------------------------------
+C UMAT FOR ISOTROPIC ELASTICITY AND ISOTROPIC MISES PLASTICITY
+C CANNOT BE USED FOR PLANE STRESS
+C 
+C PROPS(1) - E
+C PROPS(2) - NU
+C PROPS(3...) - YIELD AND HARDENING DATA
+C CALLS UHARD FOR CURVE OF YIELD STRESS VS. PLASTIC STRAIN
+C ----------------------------------------------------------------
+\end{lstlisting}
+\vspace{1em}
+Code section in the UMAT where the plane strain or plane stress condition is selected. 
+This determines the appropriate constitutive behavior for the simulation. Hence, it is stated explicitly
+in the header 2nd and 3rd line that this UMAT subroutine cannot be used for plane stress condition.
+\vspace{1em}
+\begin{lstlisting}[
+  language=Fortran,
+  numbers=left,
+  numberstyle=\small\itshape,
+  stepnumber=1,
+  frame=lines,
+  backgroundcolor=\color{blue!25},
+  mathescape,
+]$\llabel{header}$
+C    ELASTIC STIFFNESS
+C
+      DO K1=1, NDI                       
+        DO K2=1, NDI                      
+          DDSDDE(K2, K1)=ELAM            
+        END DO                           
+        DDSDDE(K1, K1)=(EG2+ELAM)        
+      END DO                             
+        DDSDDE(K1, K1)=EG
+      END DO      
+\end{lstlisting}
+\vspace{1em}
+Code lines in the UMAT where the elastic stiffness matrix is calculated. 
+This matrix defines the linear elastic response of the material.
+\begin{lstlisting}[
+  language=Fortran,
+  numbers=left,
+  numberstyle=\small\itshape,
+  stepnumber=1,
+  frame=lines,
+  backgroundcolor=\color{blue!25},
+  mathescape,
+]$\llabel{header}$
+C CALCULATE EQUIVALENT VON MISES STRESS
+C
+      SMISES=(STRESS(1)-STRESS(2))**2+(STRESS(2)-STRESS(3))**2
+     1       +(STRESS(3)-STRESS(1))**2                   
+      DO K1=NDI+1,NTENS                      
+        SMISES=SMISES+SIX*STRESS(K1)**2      
+      END DO
+      SMISES=SQRT(SMISES/TWO)     
+\end{lstlisting}
+\vspace{1em}
+\hspace{2em}This code section in the UMAT where the equivalent von Mises stress is computed. 
+This value is used to evaluate yielding according to the J2 plasticity criterion.
+From these three snippets shows the code section of the UMAT subroutine file
 in which explicitly stated that the simulation should use 
 plane strain instead of plane stress. This is done by set up the 
 mesh type that will be used in the simulation, whereas plane strain mesh type, hence
 CPE4  (A 4-node bilinear plane strain quadrilateral) in Abaqus, is utilized. Another 
 supporting facts that this model is using plane strain condition is stated
-in the equation definition of the elastic stiffness matrix in figure~\ref{fig:Q3-ElasticStiffness}, as
- well for Von Misses stress calculation in figure~\ref{fig:Q3-VonMises}. Where in both equations,
+in the equation definition of the elastic stiffness matrix in the second snippets, as
+ well for Von Misses stress calculation in third snippets. Where in both equations,
  the UMAT subroutine file is considering the out-of-plane stress
  component, $\sigma_{33}$, which for other case is zero in plane stress condition. From the lecture,
  $\sigma_{33}$ have the relation as follows:
@@ -649,29 +737,35 @@ in the equation definition of the elastic stiffness matrix in figure~\ref{fig:Q3
  \begin{equation}
     \sigma_{33} = \nu(\sigma_{11} + \sigma_{22}) = \frac{E\nu}{(1+\nu)(1-2\nu)}(\varepsilon_{11} + \varepsilon_{22})
  \end{equation}
+
 \vspace{1em}
 Whereas in this equation, $\sigma_{33}$ is expressed using the in-plane stress components
 (which here is the 11 and 22 component) and the material properties such as 
 Young's modulus, $E$, and Poisson's ratio, $\nu$.
 
+\newpage
+\vspace{1em}
 \textit{$\dots$Run two simulations with a displacement of 0.5 mm and same material properties: one with
 the Abaqus embedded J2 model and one with UMAT. Plot, compare, and discuss the true stress-strain
 curve for both cases.}
-\vspace{1em}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{visualize_tensileGraph/res/TrueStressStrain.png}
-    \caption{Comparison of tensile test for both J2-UMAt and J2-Abaqus model. 
-    The plot shows the true stress-strain curves for both models.}
+    \caption{Comparison of tensile test for both J2-UMAT and J2-Abaqus model using the effective mesh variation from Q1. 
+    The plot shows the true stress-strain curves for both models, illustrating a linear behavior
+    are shown for both models in the elastic region, followed by a transitional elastic-plastic region
+    in the yielding point at strain about 0.002, and then followed by a plastic
+    region where the curve is none-linear. }
 \end{figure}
 
 \hspace{1em} Figure above shows the true stress-strain curves for J2-UMAT model
 and J2-Abaqus. Both of the curve having the same overall behavior in the elastic and plastic area.
 The elastic-plastic transition and the plastic region seems to have the exact behavior, which hence illustrated
 using a dot curve that plot for each model, where for each data points both curves showing the 
-exact same results.  
+exact same results.
 
+\newpage
 \vspace{1em}
 \textit{$\dots$From the embedded J2 simulation, select four representative time frames that trace the
 evolution from the purely elastic status to the onset of localized necking, present for each frame
@@ -720,7 +814,16 @@ process of the plate with a hole.}
 The extracted plot starts from frame 1 in figure~\ref{fig:J2-Abaqus}(a), where the 
 material is still in elastic state, with a flower distribution that consist of 6 petals shape-like,
 whereas the upper and lower petals have the lower stress distribution from 46 to 93 MPa, and the
-four diagonal petals have stress in range of 140 until 211 MPa. This
+four diagonal petals have stress in range of 140 until 211 MPa. This elastic state 
+also can be shown in figure~\ref{fig:J2-Abaqus-PEEQ}(a),
+where the equivalent plastic strain is zero in this state. 
+
+\hspace{2em}As the loading starts to increase, transitional phenomenon occurs in the second frame, 
+shown in figure ~\ref{fig:J2-Abaqus}(b). The stress distribution shape starts to change 
+as the petals shape is having the different form and stress value. The red area in the left and right side
+of the hole start to expand, indicating that the stress concentration starts to propagate. This is also proven
+in figure~\ref{fig:J2-Abaqus-PEEQ}(b), where the equivalent plastic strain starts to develop as from the left
+and right side of the hole.
 
 %% PEEQ
 \begin{figure}[H]
@@ -748,8 +851,9 @@ four diagonal petals have stress in range of 140 until 211 MPa. This
         \caption*{(d) Equivalent plastic strain, Frame 4}
     \end{minipage}
     \caption{Contour plots of equivalent plastic strain at four representative time frames from the embedded J2 simulation, illustrating the progression of plastic deformation and localization.}
+    \label{fig:J2-Abaqus-PEEQ}
 \end{figure}
-
+\newpage
 \textit{$\dots$From the UMAT simulation, plot the distribution of the relevant stress and plastic strain
 components for the final time, indicating the meaning of the different SDVs, showing the
 maximum and minimum location, then discussing the results for different regions.}
@@ -757,57 +861,77 @@ maximum and minimum location, then discussing the results for different regions.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV1.png}
-    \caption{SDV1: Distribution of the first state-dependent variable (SDV1) at the final simulation time, representing the relevant stress or plastic strain component. Maximum and minimum locations are indicated.}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-4/SDV1.png}
+        \caption*{SDV1: $\varepsilon_{11}^{e}$}
+    \end{minipage}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-4/SDV2.png}
+        \caption*{SDV2: $\varepsilon_{22}^{e}$}
+    \end{minipage}
+    \caption{SDV1 and SDV2: Distributions of the first and second state-dependent variables at the final simulation time, showing relevant stress/plastic strain components and internal variables. Maximum and minimum locations are indicated.}
+    \label{fig:SDV1-2}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV2.png}
-    \caption{SDV2: Distribution of the second state-dependent variable (SDV2) at the final simulation time. This may correspond to an internal variable such as accumulated plastic strain or backstress.}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-4/SDV3.png}
+        \caption*{SDV3: $\varepsilon_{33}^{e}$}
+    \end{minipage}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-4/SDV4.png}
+        \caption*{SDV4: $\gamma_{12}^{e}$}
+    \end{minipage}
+    \caption{SDV3 and SDV4: Distributions of the third and fourth state-dependent variables at the final simulation time, indicating mechanical quantities and localization effects.}
+    \label{fig:SDV3-4}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV3.png}
-    \caption{SDV3: Distribution of the third state-dependent variable (SDV3) at the final simulation time, indicating another relevant mechanical quantity tracked by the UMAT.}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-4/SDV5.png}
+        \caption*{SDV5: $\varepsilon_{11}^{p}$}
+    \end{minipage}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-4/SDV6.png}
+        \caption*{SDV6: $\varepsilon_{22}^{p}$}
+    \end{minipage}
+    \caption{SDV5 and SDV6: Distributions of the fifth and sixth state-dependent variables at the final simulation time, highlighting regions of maximum/minimum and mechanical response evolution.}
+    \label{fig:SDV5-6}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV4.png}
-    \caption{SDV4: Distribution of the fourth state-dependent variable (SDV4) at the final simulation time, showing the spatial variation and localization effects.}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-4/SDV7.png}
+        \caption*{SDV7: $\varepsilon_{33}^{p}$}
+    \end{minipage}
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/Q3-4/SDV8.png}
+        \caption*{SDV8: $\gamma_{12}^{p}$}
+    \end{minipage}
+    \caption{SDV7 and SDV8: Distributions of the seventh and eighth state-dependent variables at the final simulation time, showing spatial variation and marked extrema.}
+    \label{fig:SDV7-8}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV5.png}
-    \caption{SDV5: Distribution of the fifth state-dependent variable (SDV5) at the final simulation time, highlighting regions of maximum and minimum values.}
+        \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV9.png}
+        \caption{SDV9: Distribution of the ninth state-dependent variable (SDV9): $\overline{\varepsilon}^{p}$}
+        \label{fig:SDV9}
 \end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV6.png}
-    \caption{SDV6: Distribution of the sixth state-dependent variable (SDV6) at the final simulation time, illustrating the evolution of the corresponding mechanical response.}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV7.png}
-    \caption{SDV7: Distribution of the seventh state-dependent variable (SDV7) at the final simulation time, with maximum and minimum locations marked.}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV8.png}
-    \caption{SDV8: Distribution of the eighth state-dependent variable (SDV8) at the final simulation time, showing the spatial variation across the plate.}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{images/Q3-4/SDV9.png}
-    \caption{SDV9: Distribution of the ninth state-dependent variable (SDV9) at the final simulation time, indicating the final state of the relevant mechanical quantity.}
-\end{figure}
+\vspace{1em}
+\hspace{2em}Figure~\ref{fig:SDV1-2} until figure~\ref{fig:SDV9} shows the contour plot of all State Dependent Variables (SDVs)
+at the final simulation time from the J2-UMAT model. 
 
 \section*{Conclusion}
 To sum up everything that have been analyzed and gathered in this study, 
