@@ -930,8 +930,28 @@ maximum and minimum location, then discussing the results for different regions.
         \label{fig:SDV9}
 \end{figure}
 \vspace{1em}
-\hspace{2em}Figure~\ref{fig:SDV1-2} until figure~\ref{fig:SDV9} shows the contour plot of all State Dependent Variables (SDVs)
-at the final simulation time from the J2-UMAT model. 
+\hspace{2em}Figure~\ref{fig:SDV1-2} until figure~\ref{fig:SDV9} show the contour plot of all State Dependent Variables (SDVs)
+at the final simulation time from the J2-UMAT model. For SDV1 until SDV4, these show the parameter components
+in elastic region, whereas SDV1, SDV2, and SDV3 represent the normal elastic strain components, 
+and SDV4 represents the shear elastic strain component. Then SDV5 until SDV8 show the 
+parameter components in plastic region, where SDV5, SDV6, and SDV7 represent the normal plastic strain components,
+and SDV8 represents the shear plastic strain component. Finally, SDV9 represents the equivalent plastic strain (PEEQ), which is a scalar
+measure of the accumulated plastic deformation.
+
+\hspace{2em}The first observation is that the maximum and minimum
+values for each SDV are located in different regions of the plate. As SDV1 and SDV5 is compared,
+The largest elastic and plastic strain for both cases is at compressive state. This can be look, whereas a notch
+concentration are generated in the left and right side edge of the hole. Hence, the compressive state is caused
+by the Poisson effect, where the material tends to shrink laterally when
+stretched along the load direction. Hence, both elastic and plastic distribution show an agreement,
+showing the dominated compressive state in the same region, despite the maximum 
+compressive stress at SDV1 located also near the minimum stress. 
+
+\hspace{2em}For SDV2 and SDV6, it is clear that these strain state are recorded pararelly
+to the loading direction. Hence, the maximum stress for both elastic and plastic state, respectivly,
+showing a tensile state. Whereas, the maximum tensile stress is located at the 
+left and right side edge of the hole.
+
 
 \section*{Conclusion}
 To sum up everything that have been analyzed and gathered in this study, 
