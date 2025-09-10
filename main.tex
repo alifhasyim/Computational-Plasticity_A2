@@ -425,8 +425,8 @@ stress gradients more accurately, resulting in a more continuous stress curves a
 \vspace{1em}
 \hspace{2em}Based on these results, mesh number 3 is chosen as the most optimal 
 mesh sizing configuration. As we refer to the classical value of $K_t$, which is $K_t\approx 2.72$ for plate structures with ratio
-of 0.1 based on Figure 7
-in the appendix of the assignment 2, 
+of 0.1 based on Figure\ref{fig:Kt_Graph}
+from the appendix of the assignment 2, 
 as we see that mesh 3 provides a $K_t$ value that is in close agreement with this classical solution. 
 This indicates that the mesh is sufficiently refined to capture the stress concentration effects 
 accurately without being overly computationally expensive. It is possible that to use 
@@ -436,7 +436,16 @@ while the improvement in accuracy will not be substantial. Therefore,
 mesh 3 is selected as the optimal mesh for this analysis, balancing accuracy and efficiency.   
 
 
-\newpage
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.55\textwidth]{images/Kt_Graph.png}
+    \caption{Plot of the stress concentration factor $K_t$ versus mesh number for all mesh configurations. 
+    For this case, it shows that the effective $K_t$ for d/W = 0.1 is approximately
+    2.72. Hence, this will be a reference to choose the most optimal mesh size configuration.}
+    \label{fig:Kt_Graph}
+\end{figure}
+
+
 \vspace{1em}
 \textit{$\dots$ Taking advantage of the symmetry in both the geometry and the boundary conditions, 
 propose a simplified model that reduces computational cost and simulation time. 
@@ -447,13 +456,13 @@ Compare it to the original model.}
 \begin{figure}[H]
     \centering
     \hspace{-0.05\textwidth} % Move the image to the right
-    \begin{minipage}{0.48\textwidth}
+    \begin{minipage}{0.38\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/quad_mesh.png}
         \vspace{-2.6em} % Adjust this value to move the image down
     \end{minipage}
     \hspace{0.1\textwidth} % Move the image to the right
-    \begin{minipage}{0.4\textwidth}
+    \begin{minipage}{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/quad.png}
     \end{minipage}
@@ -512,7 +521,11 @@ to perform the cyclic loading simulation based on the total displacement of 0.2 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{visualize_tensileGraph/res/cyclic_amplitude.png}
-    \caption{Applied cyclic loading amplitude for the tension-compression simulation. The plot shows the displacement history used to investigate the hardening behavior under repeated loading cycles.}
+    \caption{Applied cyclic loading amplitude for the tension-compression simulation. 
+    The plot shows the displacement history used to investigate the hardening behavior under repeated loading cycles. The amplitude
+    is defined to reach a maximum displacement of 0.2 mm as the peak value is reached, while
+    the minimum displacement is set to -0.2 mm when the valley is reached. This loading pattern is applied for
+    5 cycles and the total time duration of 20 seconds.}
     \label{fig:CyclicAmplitude}
 \end{figure}
 \newpage
@@ -813,8 +826,8 @@ process of the plate with a hole.}
 \hspace{2em}Figure above shows the contour plots of the J2-Abaqus model development.
 The extracted plot starts from frame 1 in figure~\ref{fig:J2-Abaqus}(a), where the 
 material is still in elastic state, with a flower distribution that consist of 6 petals shape-like,
-whereas the upper and lower petals have the lower stress distribution from 46 to 93 MPa, and the
-four diagonal petals have stress in range of 140 until 211 MPa. This elastic state 
+whereas the upper and lower petals have the lower stress distribution from 51 to 95 MPa, and the
+four diagonal petals have stress in range of 138 until 203 MPa. This elastic state 
 also can be shown in figure~\ref{fig:J2-Abaqus-PEEQ}(a),
 where the equivalent plastic strain is zero in this state. 
 
@@ -824,6 +837,13 @@ as the petals shape is having the different form and stress value. The red area 
 of the hole start to expand, indicating that the stress concentration starts to propagate. This is also proven
 in figure~\ref{fig:J2-Abaqus-PEEQ}(b), where the equivalent plastic strain starts to develop as from the left
 and right side of the hole.
+
+\hspace{2em}As the loading continues to increase to frame 3 and 4, it is shown from the PEEQ contour in figure
+~\ref{fig:J2-Abaqus-PEEQ}(c) and (d) that the plastic strain starts to 
+localize in the left and right side of the hole. Then the plastic strain start to grow diagonally to
+the top-right and left; and bottom-right and left side of the hole. This indicates
+that the material is undergoing significant plastic deformation in the regions,
+leading to a localized necking effect. 
 
 %% PEEQ
 \begin{figure}[H]
@@ -947,17 +967,60 @@ stretched along the load direction. Hence, both elastic and plastic distribution
 showing the dominated compressive state in the same region, despite the maximum 
 compressive stress at SDV1 located also near the minimum stress. 
 
-\hspace{2em}For SDV2 and SDV6, it is clear that these strain state are recorded pararelly
-to the loading direction. Hence, the maximum stress for both elastic and plastic state, respectivly,
-showing a tensile state. Whereas, the maximum tensile stress is located at the 
-left and right side edge of the hole.
+\hspace{2em}For SDV2 and SDV6, it is clear that these strain state are measured in the same direction as the loading. Where, it is shows
+a deformation in y direction.
+Therefore, the maximum stress for both elastic and plastic state, respectively,
+showing a tensile state, which is suitable with the loading direction. Whereas, 
+the maximum tensile stress is located at the 
+left and right side edge of the hole for the elastic and plastic state. For both state, 
+the maximum compressive stress also located at the same region, which is at the 
+upper and lower edge of the hole. By here, both elastic and plastic state have shared the same agreement
+with the maximum and minimum stress location, as well as the stress distribution behavior.
+
+\hspace{2em}For SDV3 and SDV7, 
+these strain state are measured in the out-of-plane direction, since the model is using 
+a plane strain condition. Where here, a Poisson's effect is also observed, since the stress state is
+showing the opposite behavior compared to SDV2 and SDV6. Where for instance in the upper and lower region, the stress 
+state showing a tensile for SDV7 and SDV3, while for SDV2 and SDV6 showing a compressive state. This is clearly
+suitable with the Poisson's effect relation, where the material tends to 
+expand in the out-of-plane direction when compressed in the loading direction, 
+and vice versa.
+
+\hspace{2em}For SDV4 and SDV8, these strain state are measured in shear direction. These can be seen that
+the maximum and minimum shear strain for both elastic and plastic state are located in
+the same region, which is at the upper left and upper right side edge of the hole, respectively. From this agreement, despite
+the shear strain distribution is still dominated by the elastic state, the material is already
+deformed plastically but in a smaller region which is shown in SDV8. 
+
+\hspace{2em}Finally, for SDV9, this shows the equivalent plastic strain (PEEQ)
+distribution, which is a scalar measure of the accumulated plastic deformation. Hence, it 
+can be seen that the distribution is similar to SDV6, since the dominated plastic strain cause by the
+loading to the direction of y-axis. Here, it also shows the same location of the plastic strain, which
+is at the left and right side edge of the hole.
+
 
 
 \section*{Conclusion}
 To sum up everything that have been analyzed and gathered in this study, 
 here are some several key takeaways from this small case study:
 \begin{enumerate}
-    \item 
+    \item \textbf{Mesh Convergence and Optimization:} The Mesh
+    convergence study revealed that with the designed mesh configuration
+    and shape dimension as in figure~\ref{fig:MeshPartitioning}, a global and local
+    mesh size of 0.8 mm and 0.4 mm respectively (mesh number 3) is sufficient to capture the Stress
+    concentration Factor ($K_t$) accurately, according to the agreement of the effective $K_t$
+    classical value that shows in figure~\ref{fig:Kt_Graph}. 
+    \item \textbf{Symmetry Utilization:} By utilizing symmetry in both geometry and boundary conditions,
+    a simplified model was proposed that significantly reduced computational 
+    cost and simulation time, while still accurately representing the full model's stress distribution, as shown in figure~\ref{fig:QuadModel_StressContour}.
+    \item \textbf{Hardening Mechanisms:} The investigation of 
+    isotropic and kinematic hardening models under cyclic loading revealed 
+    distinct material responses for both mechanism, as well for the combined hardening. Isotropic shows a expansion
+    of the yield surface, while kinematic shows a translation of the yield surface.
+    \item \textbf{UMAT Implementation:} The implementation of a J2 plasticity 
+    UMAT shows the exact results as the embedded J2 model in Abaqus, as shown in the true stress-strain curve
+    comparison. This indicates the UMAT's capability to accurately model 
+    plasticity behavior.
 \end{enumerate}
 
 \end{document}
