@@ -93,17 +93,16 @@ Parameter for 3rd question:
 
 \section{Introduction}
 \hspace*{2em}For this second assignment, mechanical response analysis will be conducted using a
-simple squared geometry model with a circular inclusion in the center. Hence, the analysis will be 
+simple squared geometry model with a circular hole in the center. Hence, the analysis will be 
 divided into three tasks. The first task is mesh sensitivity analysis, where the main goal of this first 
 task is to see the influence of variety of mesh sizes to the captured stress concentration generation along the defined line
 from the edge of the circular hole until the opposite edge of the plate. Then there's 
 come the second task, where the focus will be to investigate the isotropic and kinematic hardening 
 effect to its mechanical response. The last task is a subroutine implementation, where the objective
-is to point out the difference between the standard and UMAT results. Extracting some other information will be done 
-as well in the third task. 
+is to point out the difference between the standard and UMAT results. 
 
 \hspace*{2em}In this following section, each question will systematically will be addressed in the assignment,
-providing detailed explanations, derivations, and relevant figures or tables to support the
+providing the simulation set-up model, schematic, and relevant figures or graphs to support the
 analysis. All calculations and results are based on the provided data and the author’s
 unique identification number. Numerical analysis will be performed using Abaqus CAE
 with an appropriate boundary condition and settings. 
@@ -609,7 +608,7 @@ where the isotropic hardening model shows a larger area within the hysteresis
 loop, indicating higher energy dissipation during cyclic loading. 
 This is due to the uniform increase in yield stress that allows in this model. While 
 in the kinematic hardening model, increase in yield stress does not occur, only
-shifting of yield surface is allowed. Therefore, the energy dissipation
+shifting of yield surface is allowed. Hence, the energy dissipation
 is lower compared to the isotropic hardening model.
 
 \newpage
@@ -642,7 +641,8 @@ area compared to the kinematic, as well as for the isotropic hardening model.
 \hspace{2em}This is because the combined hardening model incorporates both of the hardening
 model, so that it have the ability to increase the yield stress surface as well shifting
 the yield surface. Therefore, the energy dissipation during cyclic loading 
-is higher than the other two models. A comparison of all three hardening models is 
+is higher than the other two models by looking at the hysteresis loop area. 
+A comparison of all three hardening models is 
 shown in figure~\ref{fig:Hardening_Comparison}.
 \begin{figure}[H]
     \centering

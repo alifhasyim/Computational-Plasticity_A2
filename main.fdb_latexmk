@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1757533181.90737 "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-8/main.tex" "main.pdf" "main" 1757533189.52834 0
+["pdflatex"] 1757621858.6654 "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-8/main.tex" "main.pdf" "main" 1757621866.14487 0
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757325588 83609 ebbc432e6cbbb238d39535255db2c8bd ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1748250225 14064 854914f65c8453ac3c66784526470fa3 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1748199441 13166137 27c084a345814fe9230bd168a7204098 ""
@@ -76,7 +76,7 @@
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty" 1730400552 1618 d81d7e8646081fd4049b99a8cd8a91df ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1730400552 15900 3cb191e576c7a313634d2813c55d4bf1 ""
   "C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-8/main.tex" 1757533177 50442 c8bcca04fcce1ed8bf064fd3fb8162ba ""
+  "c:/Users/Bagus Alifah Hasyim/Documents/Computational Engineering RUB/04 - 02 Computational Plasticity/Assignment2/Computational-Plasticity_A2-8/main.tex" 1757621858 50402 1805ec0c8adb68820e11b429bfe5914e ""
   "images/GEO_Base.png" 1757527924 52161 0a9866d0984489bdeb32b0dd975c084a ""
   "images/Kt.png" 1757527924 234878 82e3861133f485df2b10ef165a580d04 ""
   "images/Kt_Graph.png" 1757529138 123798 468fa05c2af6258515395e764b749fb2 ""
@@ -118,8 +118,8 @@
   "images/StressConc.png" 1757527925 353314 58c3bf4932f19a5d7edf84cd45aab8ec ""
   "images/quad.png" 1757527925 45313 fe9bce0821dcdd342e7df8686bdb276d ""
   "images/quad_mesh.png" 1757527925 40705 c5963462f96f9cd6ca8c3a3247f91ae3 ""
-  "main.aux" 1757533189 12552 7b949c8c4a69c8bc7818af06bf87a28a "pdflatex"
-  "main.tex" 1757533177 50442 c8bcca04fcce1ed8bf064fd3fb8162ba ""
+  "main.aux" 1757621865 12552 c8ccc235fb2878c3ba057d114eaf4d92 "pdflatex"
+  "main.tex" 1757621858 50402 1805ec0c8adb68820e11b429bfe5914e ""
   "visualize_tensileGraph/res/Com_Hard.png" 1757527925 143652 fd14f4bef2a0433a33e7d7a976201cf6 ""
   "visualize_tensileGraph/res/Hardening_Graph.png" 1757527925 223035 40d30656d025de7f1201afc3a6f8a87c ""
   "visualize_tensileGraph/res/Iso_Hard.png" 1757527925 107869 0a6e8d24ef555c820e0240e54ba8c5f7 ""

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  10 SEP 2025 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.25)  11 SEP 2025 22:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -346,7 +346,7 @@ Package caption Info: End \AtBeginDocument code.
 <images/GEO_Base.png, id=13, 377.7312pt x 320.6379pt>
 File: images/GEO_Base.png Graphic file (type png)
 <use images/GEO_Base.png>
-Package pdftex.def Info: images/GEO_Base.png  used on input line 118.
+Package pdftex.def Info: images/GEO_Base.png  used on input line 117.
 (pdftex.def)             Requested size: 281.85587pt x 239.25958pt.
 
 
@@ -356,7 +356,7 @@ Package pdftex.def Info: images/GEO_Base.png  used on input line 118.
 <images/MESH_Base.png, id=22, 471.2004pt x 360.8682pt>
 File: images/MESH_Base.png Graphic file (type png)
 <use images/MESH_Base.png>
-Package pdftex.def Info: images/MESH_Base.png  used on input line 190.
+Package pdftex.def Info: images/MESH_Base.png  used on input line 189.
 (pdftex.def)             Requested size: 399.29463pt x 305.80331pt.
 
 
@@ -366,42 +366,42 @@ Package pdftex.def Info: images/MESH_Base.png  used on input line 190.
 <images/Mesh1.png, id=31, 1205.50375pt x 852.18375pt>
 File: images/Mesh1.png Graphic file (type png)
 <use images/Mesh1.png>
-Package pdftex.def Info: images/Mesh1.png  used on input line 255.
+Package pdftex.def Info: images/Mesh1.png  used on input line 254.
 (pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh2.png, id=32, 1205.50375pt x 852.18375pt>
 File: images/Mesh2.png Graphic file (type png)
 <use images/Mesh2.png>
-Package pdftex.def Info: images/Mesh2.png  used on input line 260.
+Package pdftex.def Info: images/Mesh2.png  used on input line 259.
 (pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh3.png, id=33, 1205.50375pt x 852.18375pt>
 File: images/Mesh3.png Graphic file (type png)
 <use images/Mesh3.png>
-Package pdftex.def Info: images/Mesh3.png  used on input line 265.
+Package pdftex.def Info: images/Mesh3.png  used on input line 264.
 (pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh4.png, id=34, 1205.50375pt x 852.18375pt>
 File: images/Mesh4.png Graphic file (type png)
 <use images/Mesh4.png>
-Package pdftex.def Info: images/Mesh4.png  used on input line 270.
+Package pdftex.def Info: images/Mesh4.png  used on input line 269.
 (pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh5.png, id=35, 1205.50375pt x 852.18375pt>
 File: images/Mesh5.png Graphic file (type png)
 <use images/Mesh5.png>
-Package pdftex.def Info: images/Mesh5.png  used on input line 279.
+Package pdftex.def Info: images/Mesh5.png  used on input line 278.
 (pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh6.png, id=36, 1205.50375pt x 852.18375pt>
 File: images/Mesh6.png Graphic file (type png)
 <use images/Mesh6.png>
-Package pdftex.def Info: images/Mesh6.png  used on input line 284.
+Package pdftex.def Info: images/Mesh6.png  used on input line 283.
 (pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh7.png, id=37, 1205.50375pt x 852.18375pt>
 File: images/Mesh7.png Graphic file (type png)
 <use images/Mesh7.png>
-Package pdftex.def Info: images/Mesh7.png  used on input line 289.
+Package pdftex.def Info: images/Mesh7.png  used on input line 288.
 (pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 <images/Mesh8.png, id=38, 1205.50375pt x 852.18375pt>
 File: images/Mesh8.png Graphic file (type png)
 <use images/Mesh8.png>
-Package pdftex.def Info: images/Mesh8.png  used on input line 294.
+Package pdftex.def Info: images/Mesh8.png  used on input line 293.
 (pdftex.def)             Requested size: 225.4804pt x 159.39395pt.
 
 
@@ -411,42 +411,42 @@ Package pdftex.def Info: images/Mesh8.png  used on input line 294.
 <images/S22_Mesh1.png, id=53, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh1.png Graphic file (type png)
 <use images/S22_Mesh1.png>
-Package pdftex.def Info: images/S22_Mesh1.png  used on input line 310.
+Package pdftex.def Info: images/S22_Mesh1.png  used on input line 309.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
 <images/S22_Mesh2.png, id=54, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh2.png Graphic file (type png)
 <use images/S22_Mesh2.png>
-Package pdftex.def Info: images/S22_Mesh2.png  used on input line 316.
+Package pdftex.def Info: images/S22_Mesh2.png  used on input line 315.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
 <images/S22_Mesh3.png, id=55, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh3.png Graphic file (type png)
 <use images/S22_Mesh3.png>
-Package pdftex.def Info: images/S22_Mesh3.png  used on input line 322.
+Package pdftex.def Info: images/S22_Mesh3.png  used on input line 321.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
 <images/S22_Mesh4.png, id=56, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh4.png Graphic file (type png)
 <use images/S22_Mesh4.png>
-Package pdftex.def Info: images/S22_Mesh4.png  used on input line 328.
+Package pdftex.def Info: images/S22_Mesh4.png  used on input line 327.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
 <images/S22_Mesh5.png, id=57, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh5.png Graphic file (type png)
 <use images/S22_Mesh5.png>
-Package pdftex.def Info: images/S22_Mesh5.png  used on input line 349.
+Package pdftex.def Info: images/S22_Mesh5.png  used on input line 348.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
 <images/S22_Mesh6.png, id=58, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh6.png Graphic file (type png)
 <use images/S22_Mesh6.png>
-Package pdftex.def Info: images/S22_Mesh6.png  used on input line 354.
+Package pdftex.def Info: images/S22_Mesh6.png  used on input line 353.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
 <images/S22_Mesh7.png, id=59, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh7.png Graphic file (type png)
 <use images/S22_Mesh7.png>
-Package pdftex.def Info: images/S22_Mesh7.png  used on input line 359.
+Package pdftex.def Info: images/S22_Mesh7.png  used on input line 358.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
 <images/S22_Mesh8.png, id=60, 1569.865pt x 1083.04625pt>
 File: images/S22_Mesh8.png Graphic file (type png)
 <use images/S22_Mesh8.png>
-Package pdftex.def Info: images/S22_Mesh8.png  used on input line 364.
+Package pdftex.def Info: images/S22_Mesh8.png  used on input line 363.
 (pdftex.def)             Requested size: 232.52643pt x 160.41724pt.
 
 
@@ -456,12 +456,12 @@ Package pdftex.def Info: images/S22_Mesh8.png  used on input line 364.
 <images/StressConc.png, id=76, 512.1534pt x 307.3884pt>
 File: images/StressConc.png Graphic file (type png)
 <use images/StressConc.png>
-Package pdftex.def Info: images/StressConc.png  used on input line 387.
+Package pdftex.def Info: images/StressConc.png  used on input line 386.
 (pdftex.def)             Requested size: 422.77664pt x 253.75801pt.
 <images/Kt.png, id=77, 512.1534pt x 319.9152pt>
 File: images/Kt.png Graphic file (type png)
 <use images/Kt.png>
-Package pdftex.def Info: images/Kt.png  used on input line 415.
+Package pdftex.def Info: images/Kt.png  used on input line 414.
 (pdftex.def)             Requested size: 422.77664pt x 264.09926pt.
 
 
@@ -469,7 +469,7 @@ Package pdftex.def Info: images/Kt.png  used on input line 415.
 <images/Kt_Graph.png, id=82, 539.3751pt x 353.1594pt>
 File: images/Kt_Graph.png Graphic file (type png)
 <use images/Kt_Graph.png>
-Package pdftex.def Info: images/Kt_Graph.png  used on input line 441.
+Package pdftex.def Info: images/Kt_Graph.png  used on input line 440.
 (pdftex.def)             Requested size: 258.36668pt x 169.17508pt.
 
 
@@ -477,24 +477,24 @@ Package pdftex.def Info: images/Kt_Graph.png  used on input line 441.
 <images/quad_mesh.png, id=87, 1183.42125pt x 1199.48125pt>
 File: images/quad_mesh.png Graphic file (type png)
 <use images/quad_mesh.png>
-Package pdftex.def Info: images/quad_mesh.png  used on input line 461.
+Package pdftex.def Info: images/quad_mesh.png  used on input line 460.
 (pdftex.def)             Requested size: 178.5092pt x 180.92107pt.
 <images/quad.png, id=88, 229.0959pt x 319.4334pt>
 File: images/quad.png Graphic file (type png)
 <use images/quad.png>
-Package pdftex.def Info: images/quad.png  used on input line 467.
+Package pdftex.def Info: images/quad.png  used on input line 466.
 (pdftex.def)             Requested size: 140.92793pt x 196.49666pt.
 
 
 [12 <./images/Kt_Graph.png> <./images/quad_mesh.png> <./images/quad.png>]
 File: images/S22_Mesh3.png Graphic file (type png)
 <use images/S22_Mesh3.png>
-Package pdftex.def Info: images/S22_Mesh3.png  used on input line 495.
+Package pdftex.def Info: images/S22_Mesh3.png  used on input line 494.
 (pdftex.def)             Requested size: 230.18253pt x 158.7977pt.
 <images/S22_Mesh3_Quad.png, id=95, 1660.2025pt x 1199.48125pt>
 File: images/S22_Mesh3_Quad.png Graphic file (type png)
 <use images/S22_Mesh3_Quad.png>
-Package pdftex.def Info: images/S22_Mesh3_Quad.png  used on input line 501.
+Package pdftex.def Info: images/S22_Mesh3_Quad.png  used on input line 500.
 (pdftex.def)             Requested size: 230.18253pt x 166.2973pt.
 
 
@@ -502,7 +502,7 @@ Package pdftex.def Info: images/S22_Mesh3_Quad.png  used on input line 501.
 <visualize_tensileGraph/res/cyclic_amplitude.png, id=101, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/cyclic_amplitude.png Graphic file (type png)
 <use visualize_tensileGraph/res/cyclic_amplitude.png>
-Package pdftex.def Info: visualize_tensileGraph/res/cyclic_amplitude.png  used on input line 523.
+Package pdftex.def Info: visualize_tensileGraph/res/cyclic_amplitude.png  used on input line 522.
 (pdftex.def)             Requested size: 328.82707pt x 219.21786pt.
 
 
@@ -510,7 +510,7 @@ Package pdftex.def Info: visualize_tensileGraph/res/cyclic_amplitude.png  used o
 <visualize_tensileGraph/res/Iso_Hard.png, id=106, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/Iso_Hard.png Graphic file (type png)
 <use visualize_tensileGraph/res/Iso_Hard.png>
-Package pdftex.def Info: visualize_tensileGraph/res/Iso_Hard.png  used on input line 540.
+Package pdftex.def Info: visualize_tensileGraph/res/Iso_Hard.png  used on input line 539.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
 
 
@@ -518,7 +518,7 @@ Package pdftex.def Info: visualize_tensileGraph/res/Iso_Hard.png  used on input 
 <visualize_tensileGraph/res/Kin_Hard.png, id=112, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/Kin_Hard.png Graphic file (type png)
 <use visualize_tensileGraph/res/Kin_Hard.png>
-Package pdftex.def Info: visualize_tensileGraph/res/Kin_Hard.png  used on input line 568.
+Package pdftex.def Info: visualize_tensileGraph/res/Kin_Hard.png  used on input line 567.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
 
 
@@ -526,7 +526,7 @@ Package pdftex.def Info: visualize_tensileGraph/res/Kin_Hard.png  used on input 
 <visualize_tensileGraph/res/Iso_Kinem_Comparison.png, id=117, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/Iso_Kinem_Comparison.png Graphic file (type png)
 <use visualize_tensileGraph/res/Iso_Kinem_Comparison.png>
-Package pdftex.def Info: visualize_tensileGraph/res/Iso_Kinem_Comparison.png  used on input line 592.
+Package pdftex.def Info: visualize_tensileGraph/res/Iso_Kinem_Comparison.png  used on input line 591.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
 
 
@@ -534,7 +534,7 @@ Package pdftex.def Info: visualize_tensileGraph/res/Iso_Kinem_Comparison.png  us
 <visualize_tensileGraph/res/Com_Hard.png, id=122, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/Com_Hard.png Graphic file (type png)
 <use visualize_tensileGraph/res/Com_Hard.png>
-Package pdftex.def Info: visualize_tensileGraph/res/Com_Hard.png  used on input line 623.
+Package pdftex.def Info: visualize_tensileGraph/res/Com_Hard.png  used on input line 622.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
 <visualize_tensileGraph/res/Hardening_Graph.png, id=123, 867.24pt x 578.16pt>
 File: visualize_tensileGraph/res/Hardening_Graph.png Graphic file (type png)
@@ -691,7 +691,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,10n,65p,887b,1447s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Bagus Alifah Hasyim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Bagus Alifah Hasyim/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (28 pages, 4092415 bytes).
+Output written on main.pdf (28 pages, 4092372 bytes).
 PDF statistics:
  250 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
